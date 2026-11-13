@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ddaada11.github.io/cheap-airport-guide/sitemap.xml
