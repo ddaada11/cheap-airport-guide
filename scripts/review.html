@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>候选审核 · 机场推荐</title>
+<style>
+  :root{
+    --bg:#0f1115; --panel:#161a21; --line:#242a34; --text:#e6e9ef; --dim:#8b93a3;
+    --green:#2ea043; --green-bg:#0d2818; --red:#8b3a3a; --amber:#d29922; --blue:#3b82f6;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font:13px/1.5 -apple-system,"Segoe UI","Microsoft YaHei",sans-serif}
+  header{position:sticky;top:0;z-index:10;background:var(--panel);border-bottom:1px solid var(--line);padding:10px 16px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+  h1{font-size:15px;margin:0;font-weight:600}
+  .stats{color:var(--dim);display:flex;gap:14px;font-variant-numeric:tabular-nums}
+  .stats b{color:var(--text)}
+  .stats .ok b{color:var(--green)}
+  .filters{display:flex;gap:6px;margin-left:auto}
+  .filters button{background:transparent;border:1px solid var(--line);color:var(--dim);padding:4px 10px;border-radius:6px;cursor:pointer;font-size:12px}
+  .filters button.on{background:var(--blue);border-color:var(--blue);color:#fff}
+  table{width:100%;border-collapse:collapse}
+  thead th{position:sticky;top:49px;background:var(--panel);border-bottom:1px solid var(--line);text-align:left;padding:8px 10px;font-weight:500;color:var(--dim);font-size:12px;z-index:5}
+  td{border-bottom:1px solid var(--line);padding:6px 10px;vertical-align:middle}
+  tr:hover td{background:#12161d}
+  tr.approved td{background:var(--green-bg)}
+  tr.rejected{opacity:.35}
+  input,select{background:#0b0e13;border:1px solid var(--line);color:var(--text);border-radius:5px;padding:4px 7px;font:inherit;font-size:12px;width:100%}
+  input:focus,select:focus{outline:none;border-color:var(--blue)}
+  input.aff{border-color:#3d4657}
+  input.aff:not(:placeholder-shown){border-color:var(--green);background:#0d2818}
+  a{color:var(--blue);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .host{font-family:ui-monospace,Consolas,monospace;font-size:11.5px}
+  .src{color:var(--dim);font-size:11px;max-width:150px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .mirror{color:var(--amber);font-size:10.5px}
+  .btns{display:flex;gap:4px;white-space:nowrap}
+  .btns button{background:transparent;border:1px solid var(--line);color:var(--dim);padding:3px 8px;border-radius:5px;cursor:pointer;font-size:11.5px}
+  .btns button.yes:hover,.btns button.yes.on{background:var(--green);border-color:var(--green);color:#fff}
+  .btns button.no:hover,.btns button.no.on{background:var(--red);border-color:var(--red);color:#fff}
+  footer{position:sticky;bottom:0;background:var(--panel);border-top:1px solid var(--line);padding:10px 16px;display:flex;gap:12px;align-items:center}
+  footer .info{color:var(--dim);font-variant-numeric:tabular-nums}
+  footer .info b{color:var(--green)}
+  .publish{margin-left:auto;background:var(--green);border:none;color:#fff;padding:7px 18px;border-radius:6px;cursor:pointer;font-size:13px;font-weight:500}
+  .publish:disabled{background:#2a313c;color:var(--dim);cursor:not-allowed}
+  .toast{position:fixed;right:20px;bottom:70px;background:#1f2630;border:1px solid var(--line);padding:10px 16px;border-radius:8px;opacity:0;transition:opacity .2s;pointer-events:none;max-width:420px;white-space:pre-wrap}
+  .toast.show{opacity:1}
+  .hint{color:var(--dim);font-size:11.5px}
+  .parsed{color:var(--green);font-size:11px;margin-top:3px}
+</style>
+</head>
+<body>
+<header>
+  <h1>候选审核</h1>
+  <div class="stats">
+    <span>待审 <b id="s-pending">-</b></span>
+    <span class="ok">已收录 <b id="s-approved">-</b></span>
+    <span>已跳过 <b id="s-rejected">-</b></span>
+  </div>
+  <div class="filters">
+    <button data-f="pending" class="on">待审</button>
+    <button data-f="strong">★ 强信号</button>
+    <button data-f="coded">已填码</button>
+    <button data-f="approved">已收录</button>
+    <button data-f="all">全部</button>
+  </div>
+</header>
+
+<main>
+  <table>
+    <thead>
+      <tr>
+        <th style="width:96px">状态</th>
+        <th style="width:170px">机场名</th>
+        <th style="width:210px">域名</th>
+        <th style="width:92px">月付</th>
+        <th style="width:300px">推广链接 ★</th>
+        <th>来源</th>
+      </tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+</main>
+
+<footer>
+  <span class="info">已收录 <b id="f-approved">0</b> 家，其中填了邀请码 <b id="f-coded">0</b> 家</span>
+  <span class="hint">直接粘贴机场后台给你的推广链接，码会自动识别；粘贴后自动收录</span>
+  <button class="publish" id="publish">生成 README 并发布</button>
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script>
+let items = []
+let filter = 'pending'
+
+const $ = (s) => document.querySelector(s)
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))
+
+/** 从推广链接里抠邀请码（参数名各家不同，也可能在 # 后面） */
+function codeFromUrl(u) {
+  const m = String(u).match(/[?&#](?:code|aff|ref|invite|inviter|promo)=([\w-]{2,})/i)
+  return m ? m[1] : ''
+}
+
+function toast(msg, ms = 2600) {
+  const t = $('#toast')
+  t.textContent = msg
+  t.classList.add('show')
+  clearTimeout(t._t)
+  t._t = setTimeout(() => t.classList.remove('show'), ms)
+}
+
+async function api(path, body) {
+  const res = await fetch(path, body ? {
+    method: 'POST',
+    headers: { 'content-type': 'application/json' },
+    body: JSON.stringify(body),
+  } : undefined)
+  if (!res.ok) throw new Error(await res.text())
+  return res.json()
+}
+
+function visible() {
+  const p = items.filter((i) => i.status !== 'mirror')
+  if (filter === 'all') return p
+  if (filter === 'pending') return p.filter((i) => i.status === 'pending')
+  if (filter === 'approved') return p.filter((i) => i.status === 'approved')
+  if (filter === 'strong') return p.filter((i) => i.status !== 'rejected' && i.signal === 'strong')
+  if (filter === 'coded') return p.filter((i) => i.affCode)
+  return p
+}
+
+function render() {
+  const rows = visible()
+  $('#rows').innerHTML = rows.map((i) => `
+    <tr data-host="${esc(i.host)}" class="${i.status === 'approved' ? 'approved' : i.status === 'rejected' ? 'rejected' : ''}">
+      <td>
+        <div class="btns">
+          <button class="yes ${i.status === 'approved' ? 'on' : ''}" data-act="approved">收录</button>
+          <button class="no ${i.status === 'rejected' ? 'on' : ''}" data-act="rejected">跳过</button>
+        </div>
+      </td>
+      <td><input class="name" value="${esc(i.name)}" placeholder="机场名"></td>
+      <td>
+        <a class="host" href="${esc(i.url)}" target="_blank" rel="noopener noreferrer">${esc(i.hostU || i.host)}</a>
+        ${i.mirrors?.length ? `<div class="mirror">+${i.mirrors.length} 个备用域名</div>` : ''}
+      </td>
+      <td><input class="price" value="${esc(i.price)}" placeholder="手填 ¥"></td>
+      <td>
+        <input class="aff" value="${esc(i.affUrl || i.affCode)}" placeholder="粘贴推广链接，或只填邀请码">
+        ${i.affUrl ? `<div class="parsed">码：${esc(i.affCode || '未识别')}</div>` : ''}
+      </td>
+      <td class="src" title="${esc((i.source || []).join('\n'))}">${i.signal === 'strong' ? '★ ' : ''}${esc((i.source || []).join(', '))}</td>
+    </tr>`).join('') || '<tr><td colspan="7" style="padding:40px;text-align:center;color:#8b93a3">这里没有条目，换个筛选看看</td></tr>'
+
+  const p = items.filter((i) => i.status !== 'mirror')
+  $('#s-pending').textContent = p.filter((i) => i.status === 'pending').length
+  $('#s-approved').textContent = p.filter((i) => i.status === 'approved').length
+  $('#s-rejected').textContent = p.filter((i) => i.status === 'rejected').length
+  const coded = p.filter((i) => i.status === 'approved' && (i.affUrl || i.affCode))
+  $('#f-approved').textContent = p.filter((i) => i.status === 'approved').length
+  $('#f-coded').textContent = coded.length
+  $('#publish').disabled = coded.length === 0
+  $('#publish').textContent = coded.length ? `生成 README 并发布（${coded.length} 家）` : '生成 README 并发布'
+}
+
+function findRow(el) {
+  const tr = el.closest('tr')
+  return items.find((i) => i.host === tr.dataset.host)
+}
+
+async function save(item, patch) {
+  Object.assign(item, patch)
+  try {
+    await api('/api/item', { host: item.host, patch })
+  } catch (e) {
+    toast('保存失败：' + e.message)
+  }
+}
+
+document.addEventListener('click', async (e) => {
+  const btn = e.target.closest('button[data-act]')
+  if (!btn) return
+  const item = findRow(btn)
+  const next = btn.dataset.act
+  await save(item, { status: item.status === next ? 'pending' : next })
+  render()
+})
+
+document.addEventListener('change', async (e) => {
+  const el = e.target
+  if (!el.matches('input,select')) return
+  const item = findRow(el)
+  if (!item) return
+  if (el.classList.contains('aff')) {
+    const raw = el.value.trim()
+    let patch
+    if (/^https?:\/\//i.test(raw)) {
+      // 粘的是后台生成的完整推广链接：原样存，码从里面抠出来做标记
+      patch = { affUrl: raw, affCode: codeFromUrl(raw) }
+    } else {
+      // 只给了码：清掉链接，发布时按参数名拼回去
+      patch = { affUrl: '', affCode: raw }
+    }
+    if ((patch.affUrl || patch.affCode) && item.status !== 'approved') patch.status = 'approved'
+    await save(item, patch)
+    render()
+    return
+  }
+  const field = el.classList.contains('name') ? 'name' : el.classList.contains('price') ? 'price' : null
+  if (!field) return
+  await save(item, { [field]: el.value.trim() })
+})
+
+document.querySelectorAll('.filters button').forEach((b) => {
+  b.addEventListener('click', () => {
+    filter = b.dataset.f
+    document.querySelectorAll('.filters button').forEach((x) => x.classList.toggle('on', x === b))
+    render()
+  })
+})
+
+$('#publish').addEventListener('click', async () => {
+  const btn = $('#publish')
+  btn.disabled = true
+  btn.textContent = '正在生成…'
+  try {
+    const r = await api('/api/publish', {})
+    toast(r.message, 5000)
+  } catch (e) {
+    toast('发布失败：' + e.message, 6000)
+  }
+  render()
+})
+
+api('/api/pool').then((d) => {
+  items = d.items
+  render()
+}).catch((e) => toast('加载失败：' + e.message))
+</script>
+</body>
+</html>

@@ -1,0 +1,4055 @@
+{
+  "updated": "2026-11-11T20:50:51.915Z",
+  "note": "scripts/enrich.mjs 从 ref/sources/*.md 抽取。minMonthly 取多源观测最低值；priceObs 保留全部原始观测，便于发现「同一家报价不一致」",
+  "sources": [
+    {
+      "src": "Abao130__xingjiabijichang",
+      "rows": 28,
+      "useful": 26
+    },
+    {
+      "src": "chaopianyijichang__1yuanjichang",
+      "rows": 5,
+      "useful": 5
+    },
+    {
+      "src": "clash-vless__2026-jichang-tuijian",
+      "rows": 32,
+      "useful": 32
+    },
+    {
+      "src": "clashbk__clash",
+      "rows": 7,
+      "useful": 7
+    },
+    {
+      "src": "clashhubs__jichang-tuijian-clash",
+      "rows": 49,
+      "useful": 45
+    },
+    {
+      "src": "clashvpnss__jichang-tuijian-2026",
+      "rows": 51,
+      "useful": 51
+    },
+    {
+      "src": "DiningFactory__panda-vpn-pro",
+      "rows": 0,
+      "useful": 0
+    },
+    {
+      "src": "hwanz__SSR-V2ray-Trojan",
+      "rows": 18,
+      "useful": 18
+    },
+    {
+      "src": "jctz123__jichangtizi-youhuima",
+      "rows": 33,
+      "useful": 33
+    },
+    {
+      "src": "jichang007__mianfeijichang",
+      "rows": 4,
+      "useful": 4
+    },
+    {
+      "src": "jichangtuijian2027__dijiajichang-bijiao",
+      "rows": 1,
+      "useful": 1
+    },
+    {
+      "src": "jichangx__2026-jichangcha-tuijian",
+      "rows": 40,
+      "useful": 40
+    },
+    {
+      "src": "jichangyyds-net__jichang-tuijian-shice",
+      "rows": 102,
+      "useful": 98
+    },
+    {
+      "src": "KaWaIDeSuNe__dijiajichang",
+      "rows": 8,
+      "useful": 8
+    },
+    {
+      "src": "KaWaIDeSuNe__xingjiabijichang",
+      "rows": 10,
+      "useful": 10
+    },
+    {
+      "src": "lynkco01__jichangtuijian",
+      "rows": 7,
+      "useful": 7
+    },
+    {
+      "src": "nigewen__airport-notes",
+      "rows": 4,
+      "useful": 4
+    },
+    {
+      "src": "RandomJackor__jichangtuijian2026",
+      "rows": 0,
+      "useful": 0
+    },
+    {
+      "src": "selierlin__Share-SSR-V2ray",
+      "rows": 4,
+      "useful": 4
+    },
+    {
+      "src": "xingjiabijichang2027__pianyijichang",
+      "rows": 1,
+      "useful": 1
+    }
+  ],
+  "items": [
+    {
+      "name": "飞鸟云",
+      "aliases": [
+        "飞鸟云"
+      ],
+      "sources": [
+        "Abao130__xingjiabijichang"
+      ],
+      "priceObs": [
+        {
+          "v": 1,
+          "gb": null,
+          "cycle": "年付",
+          "src": "Abao130__xingjiabijichang"
+        }
+      ],
+      "minMonthly": 1,
+      "cycle": "年付",
+      "line": "Hysteria2直连",
+      "note": "一元机场当中最稳最快的",
+      "hosts": [
+        "go.clashshome.com"
+      ],
+      "urls": [
+        "https://go.clashshome.com/feiniaoyun"
+      ]
+    },
+    {
+      "name": "NanoCloud",
+      "aliases": [
+        "NanoCloud"
+      ],
+      "sources": [
+        "KaWaIDeSuNe__dijiajichang"
+      ],
+      "priceObs": [
+        {
+          "v": 2,
+          "gb": 100,
+          "cycle": "月付",
+          "src": "KaWaIDeSuNe__dijiajichang"
+        }
+      ],
+      "minMonthly": 2,
+      "gb": 100,
+      "cycle": "月付",
+      "pricePerGb": 0.02,
+      "hosts": [
+        "edu.360buyimg.men"
+      ],
+      "urls": [
+        "https://edu.360buyimg.men/auth/register?code=1PhiI0Pi"
+      ],
+      "code": "1PhiI0Pi"
+    },
+    {
+      "name": "一分",
+      "aliases": [
+        "一分"
+      ],
+      "sources": [
+        "KaWaIDeSuNe__dijiajichang"
+      ],
+      "priceObs": [
+        {
+          "v": 2,
+          "gb": 100,
+          "cycle": "月付",
+          "src": "KaWaIDeSuNe__dijiajichang"
+        }
+      ],
+      "minMonthly": 2,
+      "gb": 100,
+      "cycle": "月付",
+      "pricePerGb": 0.02,
+      "hosts": [
+        "xn--4gqx1hgtfdmt.com"
+      ],
+      "urls": [
+        "https://xn--4gqx1hgtfdmt.com/#/register?code=UqrLKhbN"
+      ],
+      "code": "UqrLKhbN"
+    },
+    {
+      "name": "杏花云",
+      "aliases": [
+        "杏花云"
+      ],
+      "sources": [
+        "clashhubs__jichang-tuijian-clash",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "priceObs": [
+        {
+          "v": 3,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 3,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 3,
+      "tier": "低价走量"
+    },
+    {
+      "name": "吹雪云",
+      "aliases": [
+        "吹雪云"
+      ],
+      "sources": [
+        "KaWaIDeSuNe__dijiajichang",
+        "nigewen__airport-notes"
+      ],
+      "priceObs": [
+        {
+          "v": 4,
+          "gb": 512,
+          "cycle": "月付",
+          "src": "KaWaIDeSuNe__dijiajichang"
+        }
+      ],
+      "minMonthly": 4,
+      "gb": 512,
+      "cycle": "月付",
+      "pricePerGb": 0.0078,
+      "hosts": [
+        "xn--9kqs1lo79d.com"
+      ],
+      "urls": [
+        "https://xn--9kqs1lo79d.com/#/register?code=AnJeilbT"
+      ],
+      "code": "AnJeilbT",
+      "note": "最近不太稳定，经常掉线"
+    },
+    {
+      "name": "Mitce",
+      "aliases": [
+        "Mitce"
+      ],
+      "sources": [
+        "Abao130__xingjiabijichang"
+      ],
+      "priceObs": [
+        {
+          "v": 4.3,
+          "gb": null,
+          "cycle": "",
+          "src": "Abao130__xingjiabijichang"
+        }
+      ],
+      "minMonthly": 4.3,
+      "line": "住宅IP+Hysteria2",
+      "hosts": [
+        "go.clashshome.com"
+      ],
+      "urls": [
+        "https://go.clashshome.com/mitcejc"
+      ]
+    },
+    {
+      "name": "AndyCloud",
+      "aliases": [
+        "AndyCloud"
+      ],
+      "sources": [
+        "clashhubs__jichang-tuijian-clash",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "priceObs": [
+        {
+          "v": 5,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 5,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 5,
+      "tier": "低价走量"
+    },
+    {
+      "name": "财路云",
+      "aliases": [
+        "财路云"
+      ],
+      "sources": [
+        "clashhubs__jichang-tuijian-clash",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "priceObs": [
+        {
+          "v": 6,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 6,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 6,
+      "tier": "低价走量"
+    },
+    {
+      "name": "cocoduck",
+      "aliases": [
+        "cocoduck"
+      ],
+      "sources": [
+        "Abao130__xingjiabijichang"
+      ],
+      "priceObs": [
+        {
+          "v": 6.4,
+          "gb": null,
+          "cycle": "年付",
+          "src": "Abao130__xingjiabijichang"
+        }
+      ],
+      "minMonthly": 6.4,
+      "cycle": "年付",
+      "line": "全球AI支持",
+      "hosts": [
+        "go.clashshome.com"
+      ],
+      "urls": [
+        "https://go.clashshome.com/cocoduck"
+      ]
+    },
+    {
+      "name": "无忧",
+      "aliases": [
+        "无忧"
+      ],
+      "sources": [
+        "jichangx__2026-jichangcha-tuijian"
+      ],
+      "priceObs": [
+        {
+          "v": 6.6,
+          "gb": 40,
+          "cycle": "年付",
+          "src": "jichangx__2026-jichangcha-tuijian"
+        }
+      ],
+      "minMonthly": 6.6,
+      "gb": 40,
+      "cycle": "年付",
+      "pricePerGb": 0.165,
+      "tier": "稳定机场"
+    },
+    {
+      "name": "EF Network",
+      "aliases": [
+        "EF Network"
+      ],
+      "sources": [
+        "KaWaIDeSuNe__xingjiabijichang"
+      ],
+      "priceObs": [
+        {
+          "v": 6.9,
+          "gb": 100,
+          "cycle": "月付",
+          "src": "KaWaIDeSuNe__xingjiabijichang"
+        }
+      ],
+      "minMonthly": 6.9,
+      "gb": 100,
+      "cycle": "月付",
+      "pricePerGb": 0.069,
+      "hosts": [
+        "666.subef.top"
+      ],
+      "urls": [
+        "https://666.subef.top/#/login?code=ArQFWeH9"
+      ],
+      "code": "ArQFWeH9"
+    },
+    {
+      "name": "飞猫云",
+      "aliases": [
+        "飞猫云"
+      ],
+      "sources": [
+        "clashhubs__jichang-tuijian-clash",
+        "clashvpnss__jichang-tuijian-2026",
+        "jichangx__2026-jichangcha-tuijian",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "priceObs": [
+        {
+          "v": 25,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 25,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 25,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 7,
+          "gb": 50,
+          "cycle": "年付",
+          "src": "jichangx__2026-jichangcha-tuijian"
+        },
+        {
+          "v": 7,
+          "gb": 50,
+          "cycle": "年付",
+          "src": "jichangx__2026-jichangcha-tuijian"
+        },
+        {
+          "v": 25,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        },
+        {
+          "v": 25,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 7,
+      "line": "IEPL 专线直连",
+      "protocol": "Trojan / SS",
+      "gb": 50,
+      "cycle": "年付",
+      "pricePerGb": 0.14,
+      "coupon": "flycat888",
+      "tier": "老牌机场",
+      "score": 3.6,
+      "nodes": 88
+    },
+    {
+      "name": "灵猫",
+      "aliases": [
+        "灵猫"
+      ],
+      "sources": [
+        "jichangx__2026-jichangcha-tuijian"
+      ],
+      "priceObs": [
+        {
+          "v": 7.1,
+          "gb": 45,
+          "cycle": "年付",
+          "src": "jichangx__2026-jichangcha-tuijian"
+        }
+      ],
+      "minMonthly": 7.1,
+      "gb": 45,
+      "cycle": "年付",
+      "pricePerGb": 0.1578,
+      "tier": "稳定机场"
+    },
+    {
+      "name": "梯子云",
+      "aliases": [
+        "梯子云"
+      ],
+      "sources": [
+        "clashhubs__jichang-tuijian-clash",
+        "jichangx__2026-jichangcha-tuijian",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "priceObs": [
+        {
+          "v": 25,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 7.4,
+          "gb": 60,
+          "cycle": "年付",
+          "src": "jichangx__2026-jichangcha-tuijian"
+        },
+        {
+          "v": 25,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        },
+        {
+          "v": 25,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 7.4,
+      "gb": 60,
+      "cycle": "年付",
+      "pricePerGb": 0.1233,
+      "tier": "高端机场",
+      "coupon": "tiziyun"
+    },
+    {
+      "name": "牛逼",
+      "aliases": [
+        "牛逼"
+      ],
+      "sources": [
+        "KaWaIDeSuNe__dijiajichang"
+      ],
+      "priceObs": [
+        {
+          "v": 7.4,
+          "gb": 1000,
+          "cycle": "月付",
+          "src": "KaWaIDeSuNe__dijiajichang"
+        }
+      ],
+      "minMonthly": 7.4,
+      "gb": 1000,
+      "cycle": "月付",
+      "pricePerGb": 0.0074,
+      "hosts": [
+        "666.66jc.top"
+      ],
+      "urls": [
+        "https://666.66jc.top/#/login?code=5DKFf0U5"
+      ],
+      "code": "5DKFf0U5"
+    },
+    {
+      "name": "M78 星云",
+      "aliases": [
+        "M78 星云"
+      ],
+      "sources": [
+        "Abao130__xingjiabijichang"
+      ],
+      "priceObs": [
+        {
+          "v": 7.8,
+          "gb": null,
+          "cycle": "",
+          "src": "Abao130__xingjiabijichang"
+        }
+      ],
+      "minMonthly": 7.8,
+      "line": "三网BGP",
+      "hosts": [
+        "go.clashshome.com"
+      ],
+      "urls": [
+        "https://go.clashshome.com/m78xingyun"
+      ]
+    },
+    {
+      "name": "淘气兔",
+      "aliases": [
+        "淘气兔"
+      ],
+      "sources": [
+        "KaWaIDeSuNe__dijiajichang"
+      ],
+      "priceObs": [
+        {
+          "v": 7.8,
+          "gb": 100,
+          "cycle": "月付",
+          "src": "KaWaIDeSuNe__dijiajichang"
+        }
+      ],
+      "minMonthly": 7.8,
+      "gb": 100,
+      "cycle": "月付",
+      "pricePerGb": 0.078,
+      "hosts": [
+        "vip.taoqitu.pro"
+      ],
+      "urls": [
+        "https://vip.taoqitu.pro/index.html?register=5P3PPWZM"
+      ]
+    },
+    {
+      "name": "星岛梦",
+      "aliases": [
+        "星岛梦"
+      ],
+      "sources": [
+        "clash-vless__2026-jichang-tuijian",
+        "clashhubs__jichang-tuijian-clash",
+        "clashvpnss__jichang-tuijian-2026",
+        "jichangx__2026-jichangcha-tuijian",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "priceObs": [
+        {
+          "v": 15,
+          "gb": null,
+          "cycle": "月付",
+          "src": "clash-vless__2026-jichang-tuijian"
+        },
+        {
+          "v": 25,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 25,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 25,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 8,
+          "gb": 60,
+          "cycle": "年付",
+          "src": "jichangx__2026-jichangcha-tuijian"
+        },
+        {
+          "v": 8,
+          "gb": 60,
+          "cycle": "年付",
+          "src": "jichangx__2026-jichangcha-tuijian"
+        },
+        {
+          "v": 25,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        },
+        {
+          "v": 25,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 8,
+      "cycle": "年付",
+      "score": 9.7,
+      "hosts": [
+        "clash-vless.com"
+      ],
+      "urls": [
+        "https://clash-vless.com/blog/review-xingdaomeng-best-budget-premium"
+      ],
+      "line": "双线接入专线",
+      "protocol": "Shadowsocks / Trojan",
+      "gb": 60,
+      "pricePerGb": 0.1333,
+      "coupon": "nmw888",
+      "tier": "老牌机场 / 性价比机场 / 稳定机场 / 高端机场",
+      "afterCoupon": 22.5,
+      "nodes": 88
+    },
+    {
+      "name": "动力港",
+      "aliases": [
+        "动力港"
+      ],
+      "sources": [
+        "clashhubs__jichang-tuijian-clash",
+        "jichangyyds-net__jichang-tuijian-shice",
+        "KaWaIDeSuNe__dijiajichang"
+      ],
+      "priceObs": [
+        {
+          "v": 8,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 8,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        },
+        {
+          "v": 8,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        },
+        {
+          "v": 8,
+          "gb": 100,
+          "cycle": "月付",
+          "src": "KaWaIDeSuNe__dijiajichang"
+        }
+      ],
+      "minMonthly": 8,
+      "score": 2.9,
+      "nodes": 70,
+      "tier": "低价走量",
+      "gb": 100,
+      "cycle": "月付",
+      "pricePerGb": 0.08,
+      "hosts": [
+        "xn--tfrza853d44tvst.xyz"
+      ],
+      "urls": [
+        "https://xn--tfrza853d44tvst.xyz/#/register?code=hm0iLlzT"
+      ],
+      "code": "hm0iLlzT"
+    },
+    {
+      "name": "跨界云",
+      "aliases": [
+        "跨界云",
+        "跨界"
+      ],
+      "sources": [
+        "clashhubs__jichang-tuijian-clash",
+        "jichangx__2026-jichangcha-tuijian",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "priceObs": [
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 8,
+          "gb": 60,
+          "cycle": "年付",
+          "src": "jichangx__2026-jichangcha-tuijian"
+        },
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        },
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 8,
+      "gb": 60,
+      "cycle": "年付",
+      "pricePerGb": 0.1333,
+      "tier": "稳定机场",
+      "coupon": "kuajie",
+      "afterCoupon": 16,
+      "score": 3.6
+    },
+    {
+      "name": "闪跃",
+      "aliases": [
+        "闪跃"
+      ],
+      "sources": [
+        "clashhubs__jichang-tuijian-clash",
+        "jichangx__2026-jichangcha-tuijian",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "priceObs": [
+        {
+          "v": 24,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 8,
+          "gb": 60,
+          "cycle": "年付",
+          "src": "jichangx__2026-jichangcha-tuijian"
+        },
+        {
+          "v": 24,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        },
+        {
+          "v": 24,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 8,
+      "gb": 60,
+      "cycle": "年付",
+      "pricePerGb": 0.1333,
+      "coupon": "shanyue",
+      "tier": "稳定机场",
+      "score": 3.2
+    },
+    {
+      "name": "飞为",
+      "aliases": [
+        "飞为"
+      ],
+      "sources": [
+        "jichangx__2026-jichangcha-tuijian"
+      ],
+      "priceObs": [
+        {
+          "v": 8,
+          "gb": 60,
+          "cycle": "年付",
+          "src": "jichangx__2026-jichangcha-tuijian"
+        }
+      ],
+      "minMonthly": 8,
+      "gb": 60,
+      "cycle": "年付",
+      "pricePerGb": 0.1333,
+      "coupon": "firefly",
+      "tier": "稳定机场"
+    },
+    {
+      "name": "灵动云",
+      "aliases": [
+        "灵动云"
+      ],
+      "sources": [
+        "clashhubs__jichang-tuijian-clash",
+        "jichangx__2026-jichangcha-tuijian",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "priceObs": [
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 8.3,
+          "gb": 70,
+          "cycle": "年付",
+          "src": "jichangx__2026-jichangcha-tuijian"
+        },
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        },
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 8.3,
+      "gb": 70,
+      "cycle": "年付",
+      "pricePerGb": 0.1186,
+      "tier": "高端机场",
+      "coupon": "ld88"
+    },
+    {
+      "name": "飞V",
+      "aliases": [
+        "飞V"
+      ],
+      "sources": [
+        "jichangx__2026-jichangcha-tuijian"
+      ],
+      "priceObs": [
+        {
+          "v": 8.3,
+          "gb": 65,
+          "cycle": "年付",
+          "src": "jichangx__2026-jichangcha-tuijian"
+        }
+      ],
+      "minMonthly": 8.3,
+      "gb": 65,
+      "cycle": "年付",
+      "pricePerGb": 0.1277,
+      "tier": "高端机场"
+    },
+    {
+      "name": "宝可梦加速",
+      "aliases": [
+        "宝可梦加速",
+        "宝可梦"
+      ],
+      "sources": [
+        "Abao130__xingjiabijichang"
+      ],
+      "priceObs": [
+        {
+          "v": 8.9,
+          "gb": null,
+          "cycle": "",
+          "src": "Abao130__xingjiabijichang"
+        }
+      ],
+      "minMonthly": 8.9,
+      "line": "IEPL/IPLC",
+      "hosts": [
+        "go.clashshome.com"
+      ],
+      "urls": [
+        "https://go.clashshome.com/baokemeng"
+      ]
+    },
+    {
+      "name": "秒秒云",
+      "aliases": [
+        "秒秒云"
+      ],
+      "sources": [
+        "clashhubs__jichang-tuijian-clash",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "priceObs": [
+        {
+          "v": 9,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 9,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 9,
+      "tier": "低价走量"
+    },
+    {
+      "name": "暮光加速",
+      "aliases": [
+        "暮光加速",
+        "暮光网络"
+      ],
+      "sources": [
+        "clashhubs__jichang-tuijian-clash",
+        "jichangx__2026-jichangcha-tuijian",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "priceObs": [
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 9.1,
+          "gb": 70,
+          "cycle": "年付",
+          "src": "jichangx__2026-jichangcha-tuijian"
+        },
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        },
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 9.1,
+      "gb": 70,
+      "cycle": "年付",
+      "pricePerGb": 0.13,
+      "tier": "高端机场",
+      "coupon": "mm88"
+    },
+    {
+      "name": "隐形人",
+      "aliases": [
+        "隐形人"
+      ],
+      "sources": [
+        "clashhubs__jichang-tuijian-clash",
+        "jichangx__2026-jichangcha-tuijian",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "priceObs": [
+        {
+          "v": 24,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 9.1,
+          "gb": 80,
+          "cycle": "年付",
+          "src": "jichangx__2026-jichangcha-tuijian"
+        },
+        {
+          "v": 24,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        },
+        {
+          "v": 24,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 9.1,
+      "gb": 80,
+      "cycle": "年付",
+      "pricePerGb": 0.1137,
+      "tier": "高端机场",
+      "coupon": "yxr888"
+    },
+    {
+      "name": "拼好连",
+      "aliases": [
+        "拼好连"
+      ],
+      "sources": [
+        "clashhubs__jichang-tuijian-clash",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "priceObs": [
+        {
+          "v": 9.9,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 9.9,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        },
+        {
+          "v": 9.9,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 9.9,
+      "tier": "低价走量"
+    },
+    {
+      "name": "浪网",
+      "aliases": [
+        "浪网"
+      ],
+      "sources": [
+        "clashhubs__jichang-tuijian-clash",
+        "jichangx__2026-jichangcha-tuijian",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "priceObs": [
+        {
+          "v": 30,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 9.9,
+          "gb": 80,
+          "cycle": "年付",
+          "src": "jichangx__2026-jichangcha-tuijian"
+        },
+        {
+          "v": 30,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        },
+        {
+          "v": 30,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 9.9,
+      "gb": 80,
+      "cycle": "年付",
+      "pricePerGb": 0.1237,
+      "tier": "高端机场",
+      "coupon": "lw88"
+    },
+    {
+      "name": "瑶瑶领先",
+      "aliases": [
+        "瑶瑶领先"
+      ],
+      "sources": [
+        "hwanz__SSR-V2ray-Trojan"
+      ],
+      "priceObs": [
+        {
+          "v": 9.9,
+          "gb": 384,
+          "cycle": "月付",
+          "src": "hwanz__SSR-V2ray-Trojan"
+        }
+      ],
+      "minMonthly": 9.9,
+      "gb": 384,
+      "cycle": "月付",
+      "pricePerGb": 0.0258
+    },
+    {
+      "name": "飞兔云",
+      "aliases": [
+        "飞兔云"
+      ],
+      "sources": [
+        "KaWaIDeSuNe__xingjiabijichang"
+      ],
+      "priceObs": [
+        {
+          "v": 9.9,
+          "gb": 118,
+          "cycle": "月付",
+          "src": "KaWaIDeSuNe__xingjiabijichang"
+        }
+      ],
+      "minMonthly": 9.9,
+      "gb": 118,
+      "cycle": "月付",
+      "pricePerGb": 0.0839,
+      "hosts": [
+        "vip.xn--h5qy75o.vip"
+      ],
+      "urls": [
+        "https://vip.xn--h5qy75o.vip/#/register?code=4ZoNj0zb"
+      ],
+      "code": "4ZoNj0zb"
+    },
+    {
+      "name": "紅葉",
+      "aliases": [
+        "紅葉"
+      ],
+      "sources": [
+        "KaWaIDeSuNe__xingjiabijichang"
+      ],
+      "priceObs": [
+        {
+          "v": 10,
+          "gb": 158,
+          "cycle": "月付",
+          "src": "KaWaIDeSuNe__xingjiabijichang"
+        }
+      ],
+      "minMonthly": 10,
+      "gb": 158,
+      "cycle": "月付",
+      "pricePerGb": 0.0633,
+      "hosts": [
+        "xn--19zu2m.site"
+      ],
+      "urls": [
+        "https://www.紅葉.site/auth/register?code=V9cquaO2"
+      ],
+      "code": "V9cquaO2"
+    },
+    {
+      "name": "微风网络",
+      "aliases": [
+        "微风网络"
+      ],
+      "sources": [
+        "clash-vless__2026-jichang-tuijian",
+        "clashhubs__jichang-tuijian-clash",
+        "jichangx__2026-jichangcha-tuijian",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "hosts": [
+        "wep01.breezenetaff.com"
+      ],
+      "urls": [
+        "https://wep01.breezenetaff.com/#/?code=lH5hvqRN"
+      ],
+      "code": "lH5hvqRN",
+      "priceObs": [
+        {
+          "v": 27,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 11.4,
+          "gb": 100,
+          "cycle": "年付",
+          "src": "jichangx__2026-jichangcha-tuijian"
+        },
+        {
+          "v": 11.4,
+          "gb": 100,
+          "cycle": "年付",
+          "src": "jichangx__2026-jichangcha-tuijian"
+        },
+        {
+          "v": 27,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        },
+        {
+          "v": 27,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 11.4,
+      "gb": 100,
+      "cycle": "年付",
+      "pricePerGb": 0.114,
+      "tier": "稳定机场"
+    },
+    {
+      "name": "唯兔云 (v2yun)",
+      "aliases": [
+        "唯兔云 (v2yun)",
+        "唯兔云专线机场"
+      ],
+      "sources": [
+        "clash-vless__2026-jichang-tuijian",
+        "jctz123__jichangtizi-youhuima"
+      ],
+      "priceObs": [
+        {
+          "v": 12,
+          "gb": null,
+          "cycle": "月付",
+          "src": "clash-vless__2026-jichang-tuijian"
+        }
+      ],
+      "minMonthly": 12,
+      "cycle": "月付",
+      "score": 9.6,
+      "note": "重点推荐",
+      "hosts": [
+        "clash-vless.com"
+      ],
+      "urls": [
+        "https://clash-vless.com/blog/review-v2yun-beginner-friendly-guide-comprehensive"
+      ],
+      "coupon": "rabbit"
+    },
+    {
+      "name": "山水云",
+      "aliases": [
+        "山水云"
+      ],
+      "sources": [
+        "clashhubs__jichang-tuijian-clash",
+        "clashvpnss__jichang-tuijian-2026",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "priceObs": [
+        {
+          "v": 12,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 12,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 12,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 12,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 12,
+      "line": "优质直连公网",
+      "protocol": "Vmess",
+      "tier": "低价走量"
+    },
+    {
+      "name": "MDSS Cloud",
+      "aliases": [
+        "MDSS Cloud"
+      ],
+      "sources": [
+        "clashvpnss__jichang-tuijian-2026"
+      ],
+      "priceObs": [
+        {
+          "v": 12,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 12,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        }
+      ],
+      "minMonthly": 12,
+      "line": "纯内网 IPLC 专线",
+      "protocol": "ShadowsocksR / VMess"
+    },
+    {
+      "name": "KTM Cloud",
+      "aliases": [
+        "KTM Cloud"
+      ],
+      "sources": [
+        "KaWaIDeSuNe__xingjiabijichang"
+      ],
+      "priceObs": [
+        {
+          "v": 14,
+          "gb": 2048,
+          "cycle": "月付",
+          "src": "KaWaIDeSuNe__xingjiabijichang"
+        }
+      ],
+      "minMonthly": 14,
+      "gb": 2048,
+      "cycle": "月付",
+      "pricePerGb": 0.0068,
+      "hosts": [
+        "ktmcloud.link"
+      ],
+      "urls": [
+        "https://ktmcloud.link/#/register?code=EXL0Y3vD"
+      ],
+      "code": "EXL0Y3vD"
+    },
+    {
+      "name": "宇宙云",
+      "aliases": [
+        "宇宙云"
+      ],
+      "sources": [
+        "clash-vless__2026-jichang-tuijian",
+        "clashhubs__jichang-tuijian-clash",
+        "clashvpnss__jichang-tuijian-2026",
+        "jichangx__2026-jichangcha-tuijian",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "hosts": [
+        "wzjc.yuzoucloud.cc"
+      ],
+      "urls": [
+        "https://wzjc.yuzoucloud.cc/#/register?code=wScuV39y"
+      ],
+      "code": "wScuV39y",
+      "priceObs": [
+        {
+          "v": 25,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 25,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 25,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 14.9,
+          "gb": 100,
+          "cycle": "月付",
+          "src": "jichangx__2026-jichangcha-tuijian"
+        },
+        {
+          "v": 25,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        },
+        {
+          "v": 25,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 14.9,
+      "line": "公网中转 / 优化",
+      "protocol": "Hysteria2 / TUIC",
+      "gb": 100,
+      "cycle": "月付",
+      "pricePerGb": 0.149,
+      "coupon": "YUZHOU553",
+      "tier": "性价比机场",
+      "afterCoupon": 20,
+      "score": 4.2,
+      "nodes": 60
+    },
+    {
+      "name": "唯兔云",
+      "aliases": [
+        "唯兔云"
+      ],
+      "sources": [
+        "clashhubs__jichang-tuijian-clash",
+        "clashvpnss__jichang-tuijian-2026",
+        "jichangx__2026-jichangcha-tuijian",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "priceObs": [
+        {
+          "v": 19.9,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 19.9,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 19.9,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 14.9,
+          "gb": 100,
+          "cycle": "月付",
+          "src": "jichangx__2026-jichangcha-tuijian"
+        },
+        {
+          "v": 19.9,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        },
+        {
+          "v": 19.9,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 14.9,
+      "line": "公网中转 / 优化",
+      "protocol": "ShadowsocksR / VMess",
+      "gb": 100,
+      "cycle": "月付",
+      "pricePerGb": 0.149,
+      "coupon": "rabbit",
+      "tier": "老牌机场",
+      "afterCoupon": 17.91,
+      "score": 4,
+      "nodes": 30
+    },
+    {
+      "name": "特朗普云",
+      "aliases": [
+        "特朗普云",
+        "特朗普"
+      ],
+      "sources": [
+        "Abao130__xingjiabijichang",
+        "nigewen__airport-notes"
+      ],
+      "priceObs": [
+        {
+          "v": 15,
+          "gb": null,
+          "cycle": "",
+          "src": "Abao130__xingjiabijichang"
+        }
+      ],
+      "minMonthly": 15,
+      "line": "中转+IEPL专线",
+      "note": "这几天不太稳定"
+    },
+    {
+      "name": "edgenova",
+      "aliases": [
+        "edgenova"
+      ],
+      "sources": [
+        "clash-vless__2026-jichang-tuijian",
+        "clashhubs__jichang-tuijian-clash",
+        "clashvpnss__jichang-tuijian-2026",
+        "jichangx__2026-jichangcha-tuijian",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "hosts": [
+        "work.edgenovaaff.cc"
+      ],
+      "urls": [
+        "https://work.edgenovaaff.cc/#/register?code=Ai07FrVX"
+      ],
+      "code": "Ai07FrVX",
+      "priceObs": [
+        {
+          "v": 15,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 15,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 15,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 20,
+          "gb": 100,
+          "cycle": "月付",
+          "src": "jichangx__2026-jichangcha-tuijian"
+        },
+        {
+          "v": 15,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        },
+        {
+          "v": 15,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 15,
+      "line": "纯内网 IPLC 专线",
+      "protocol": "Hysteria2 / TUIC",
+      "gb": 100,
+      "cycle": "月付",
+      "pricePerGb": 0.2,
+      "coupon": "TH888",
+      "tier": "性价比机场",
+      "score": 4.3,
+      "nodes": 42
+    },
+    {
+      "name": "可信云",
+      "aliases": [
+        "可信云"
+      ],
+      "sources": [
+        "clash-vless__2026-jichang-tuijian",
+        "clashhubs__jichang-tuijian-clash",
+        "clashvpnss__jichang-tuijian-2026",
+        "jichangx__2026-jichangcha-tuijian",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "hosts": [
+        "work.kosingaff.com"
+      ],
+      "urls": [
+        "https://work.kosingaff.com/#/register?code=DrBP6hWD"
+      ],
+      "code": "DrBP6hWD",
+      "priceObs": [
+        {
+          "v": 15,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 15,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 15,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 25,
+          "gb": 150,
+          "cycle": "月付",
+          "src": "jichangx__2026-jichangcha-tuijian"
+        },
+        {
+          "v": 15,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        },
+        {
+          "v": 15,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 15,
+      "line": "BGP 中转 / IPLC",
+      "protocol": "V2Ray / Vless",
+      "gb": 150,
+      "cycle": "月付",
+      "pricePerGb": 0.1667,
+      "tier": "性价比机场",
+      "coupon": "KEXIN85",
+      "afterCoupon": 12.75,
+      "score": 4.4,
+      "nodes": 50
+    },
+    {
+      "name": "速界",
+      "aliases": [
+        "速界"
+      ],
+      "sources": [
+        "clash-vless__2026-jichang-tuijian",
+        "clashhubs__jichang-tuijian-clash",
+        "clashvpnss__jichang-tuijian-2026",
+        "jichangx__2026-jichangcha-tuijian",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "hosts": [
+        "work.speedworldaff.cc"
+      ],
+      "urls": [
+        "https://work.speedworldaff.cc/#/register?code=uxlVCU3K"
+      ],
+      "code": "uxlVCU3K",
+      "priceObs": [
+        {
+          "v": 15,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 15,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 15,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 25,
+          "gb": 150,
+          "cycle": "月付",
+          "src": "jichangx__2026-jichangcha-tuijian"
+        },
+        {
+          "v": 15,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        },
+        {
+          "v": 15,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 15,
+      "line": "BGP 中转 / IPLC",
+      "protocol": "V2Ray / SSR",
+      "gb": 150,
+      "cycle": "月付",
+      "pricePerGb": 0.1667,
+      "coupon": "sujie888",
+      "tier": "性价比机场",
+      "score": 4.3,
+      "nodes": 52
+    },
+    {
+      "name": "快狸",
+      "aliases": [
+        "快狸"
+      ],
+      "sources": [
+        "clash-vless__2026-jichang-tuijian",
+        "clashhubs__jichang-tuijian-clash",
+        "clashvpnss__jichang-tuijian-2026",
+        "jichangx__2026-jichangcha-tuijian",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "hosts": [
+        "varnexa.kuailitttt.homes"
+      ],
+      "urls": [
+        "https://varnexa.kuailitttt.homes/#/register?code=geef2gIo"
+      ],
+      "code": "geef2gIo",
+      "priceObs": [
+        {
+          "v": 15,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 15,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 15,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 25,
+          "gb": 150,
+          "cycle": "月付",
+          "src": "jichangx__2026-jichangcha-tuijian"
+        },
+        {
+          "v": 15,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        },
+        {
+          "v": 15,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 15,
+      "line": "纯内网 IPLC 专线",
+      "protocol": "Hysteria2 / TUIC",
+      "gb": 150,
+      "cycle": "月付",
+      "pricePerGb": 0.1667,
+      "coupon": "theo66",
+      "tier": "性价比机场",
+      "score": 4.3,
+      "nodes": 38
+    },
+    {
+      "name": "龙猫云",
+      "aliases": [
+        "龙猫云"
+      ],
+      "sources": [
+        "hwanz__SSR-V2ray-Trojan",
+        "KaWaIDeSuNe__xingjiabijichang"
+      ],
+      "priceObs": [
+        {
+          "v": 15,
+          "gb": 100,
+          "cycle": "月付",
+          "src": "hwanz__SSR-V2ray-Trojan"
+        },
+        {
+          "v": 15,
+          "gb": 100,
+          "cycle": "月付",
+          "src": "KaWaIDeSuNe__xingjiabijichang"
+        }
+      ],
+      "minMonthly": 15,
+      "gb": 100,
+      "cycle": "月付",
+      "pricePerGb": 0.15,
+      "hosts": [
+        "inv06.lmaff01.cc"
+      ],
+      "urls": [
+        "https://inv06.lmaff01.cc/register?aff=9QZ7Wx1m"
+      ],
+      "code": "9QZ7Wx1m"
+    },
+    {
+      "name": "优信云",
+      "aliases": [
+        "优信云"
+      ],
+      "sources": [
+        "jichangx__2026-jichangcha-tuijian"
+      ],
+      "priceObs": [
+        {
+          "v": 15,
+          "gb": 100,
+          "cycle": "月付",
+          "src": "jichangx__2026-jichangcha-tuijian"
+        }
+      ],
+      "minMonthly": 15,
+      "gb": 100,
+      "cycle": "月付",
+      "pricePerGb": 0.15,
+      "coupon": "yx51666",
+      "tier": "性价比机场"
+    },
+    {
+      "name": "万达云",
+      "aliases": [
+        "万达云"
+      ],
+      "sources": [
+        "Abao130__xingjiabijichang"
+      ],
+      "priceObs": [
+        {
+          "v": 16.8,
+          "gb": null,
+          "cycle": "",
+          "src": "Abao130__xingjiabijichang"
+        }
+      ],
+      "minMonthly": 16.8,
+      "line": "IEPL专线",
+      "hosts": [
+        "go.clashshome.com"
+      ],
+      "urls": [
+        "https://go.clashshome.com/wandayun"
+      ]
+    },
+    {
+      "name": "光速云",
+      "aliases": [
+        "光速云"
+      ],
+      "sources": [
+        "clash-vless__2026-jichang-tuijian",
+        "clashhubs__jichang-tuijian-clash",
+        "clashvpnss__jichang-tuijian-2026",
+        "jichangx__2026-jichangcha-tuijian",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "priceObs": [
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "月付",
+          "src": "clash-vless__2026-jichang-tuijian"
+        },
+        {
+          "v": 17,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 17,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 17,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 17,
+          "gb": 110,
+          "cycle": "月付",
+          "src": "jichangx__2026-jichangcha-tuijian"
+        },
+        {
+          "v": 17,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        },
+        {
+          "v": 17,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 17,
+      "cycle": "月付",
+      "score": 9.3,
+      "hosts": [
+        "mdlky.gsyaff.com"
+      ],
+      "urls": [
+        "https://mdlky.gsyaff.com/#/?code=AOa13ZPx"
+      ],
+      "code": "AOa13ZPx",
+      "line": "双线接入专线",
+      "protocol": "SS / Trojan",
+      "gb": 110,
+      "pricePerGb": 0.1545,
+      "coupon": "AMM",
+      "tier": "老牌机场 / 性价比机场 / 稳定机场 / 高端机场",
+      "nodes": 48
+    },
+    {
+      "name": "SSRDOG",
+      "aliases": [
+        "SSRDOG"
+      ],
+      "sources": [
+        "Abao130__xingjiabijichang",
+        "lynkco01__jichangtuijian"
+      ],
+      "priceObs": [
+        {
+          "v": 17.14,
+          "gb": null,
+          "cycle": "年付",
+          "src": "Abao130__xingjiabijichang"
+        }
+      ],
+      "minMonthly": 17.14,
+      "cycle": "年付",
+      "line": "IEPL/IPLC专线",
+      "hosts": [
+        "go.clashshome.com",
+        "clashxiazai.com"
+      ],
+      "urls": [
+        "https://go.clashshome.com/ssrdog",
+        "https://clashxiazai.com/ssrdog"
+      ]
+    },
+    {
+      "name": "糖果云",
+      "aliases": [
+        "糖果云"
+      ],
+      "sources": [
+        "Abao130__xingjiabijichang"
+      ],
+      "priceObs": [
+        {
+          "v": 18,
+          "gb": null,
+          "cycle": "",
+          "src": "Abao130__xingjiabijichang"
+        }
+      ],
+      "minMonthly": 18,
+      "line": "IEPL专线+赠EMBY",
+      "hosts": [
+        "go.clashshome.com"
+      ],
+      "urls": [
+        "https://go.clashshome.com/tangguoyun"
+      ]
+    },
+    {
+      "name": "乌龟加速",
+      "aliases": [
+        "乌龟加速",
+        "乌龟",
+        "乌龟加速机场"
+      ],
+      "sources": [
+        "Abao130__xingjiabijichang",
+        "jctz123__jichangtizi-youhuima"
+      ],
+      "priceObs": [
+        {
+          "v": 18,
+          "gb": null,
+          "cycle": "",
+          "src": "Abao130__xingjiabijichang"
+        }
+      ],
+      "minMonthly": 18,
+      "line": "IEPL专线+EMBY",
+      "hosts": [
+        "go.clashshome.com"
+      ],
+      "urls": [
+        "https://go.clashshome.com/wuguijiasu"
+      ],
+      "coupon": "clashx.cc"
+    },
+    {
+      "name": "飞猫云 (Flycat)",
+      "aliases": [
+        "飞猫云 (Flycat)"
+      ],
+      "sources": [
+        "clash-vless__2026-jichang-tuijian"
+      ],
+      "priceObs": [
+        {
+          "v": 18,
+          "gb": null,
+          "cycle": "月付",
+          "src": "clash-vless__2026-jichang-tuijian"
+        }
+      ],
+      "minMonthly": 18,
+      "cycle": "月付",
+      "score": 9.9,
+      "note": "强烈推荐",
+      "hosts": [
+        "clash-vless.com"
+      ],
+      "urls": [
+        "https://clash-vless.com/blog/review-flycat-2026-best-choice"
+      ]
+    },
+    {
+      "name": "极连云",
+      "aliases": [
+        "极连云"
+      ],
+      "sources": [
+        "clash-vless__2026-jichang-tuijian",
+        "clashhubs__jichang-tuijian-clash",
+        "clashvpnss__jichang-tuijian-2026",
+        "jichangx__2026-jichangcha-tuijian",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "hosts": [
+        "kdjhao.jlyvipaff.com"
+      ],
+      "urls": [
+        "https://kdjhao.jlyvipaff.com/#/?code=aEA3vYlG"
+      ],
+      "code": "aEA3vYlG",
+      "priceObs": [
+        {
+          "v": 18,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 18,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 18,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 18,
+          "gb": 100,
+          "cycle": "月付",
+          "src": "jichangx__2026-jichangcha-tuijian"
+        },
+        {
+          "v": 18,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        },
+        {
+          "v": 18,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 18,
+      "line": "公网中转 / 优化",
+      "protocol": "Shadowsocks / Trojan",
+      "gb": 100,
+      "cycle": "月付",
+      "pricePerGb": 0.18,
+      "tier": "老牌机场",
+      "score": 4.2,
+      "nodes": 55
+    },
+    {
+      "name": "光年梯",
+      "aliases": [
+        "光年梯"
+      ],
+      "sources": [
+        "clash-vless__2026-jichang-tuijian",
+        "clashhubs__jichang-tuijian-clash",
+        "clashvpnss__jichang-tuijian-2026",
+        "jichangx__2026-jichangcha-tuijian",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "hosts": [
+        "ggmq.gntaff.com"
+      ],
+      "urls": [
+        "https://ggmq.gntaff.com/#/?code=RzYlAifo"
+      ],
+      "code": "RzYlAifo",
+      "priceObs": [
+        {
+          "v": 18,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 18,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 18,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 18,
+          "gb": 110,
+          "cycle": "月付",
+          "src": "jichangx__2026-jichangcha-tuijian"
+        },
+        {
+          "v": 18,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        },
+        {
+          "v": 18,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 18,
+      "line": "纯内网 IPLC 专线",
+      "protocol": "ShadowsocksR / VMess",
+      "gb": 110,
+      "cycle": "月付",
+      "pricePerGb": 0.1636,
+      "tier": "老牌机场",
+      "score": 4.3,
+      "nodes": 62
+    },
+    {
+      "name": "WY Cloud",
+      "aliases": [
+        "WY Cloud"
+      ],
+      "sources": [
+        "KaWaIDeSuNe__xingjiabijichang"
+      ],
+      "priceObs": [
+        {
+          "v": 18,
+          "gb": 100,
+          "cycle": "月付",
+          "src": "KaWaIDeSuNe__xingjiabijichang"
+        }
+      ],
+      "minMonthly": 18,
+      "gb": 100,
+      "cycle": "月付",
+      "pricePerGb": 0.18,
+      "hosts": [
+        "z1z1.xyz"
+      ],
+      "urls": [
+        "https://www.z1z1.xyz/#/register?code=jTkEdr8s"
+      ],
+      "code": "jTkEdr8s"
+    },
+    {
+      "name": "无忧链接",
+      "aliases": [
+        "无忧链接"
+      ],
+      "sources": [
+        "clashhubs__jichang-tuijian-clash",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "priceObs": [
+        {
+          "v": 19,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 19,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        },
+        {
+          "v": 19,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 19,
+      "coupon": "wuyou666",
+      "tier": "主流性价比"
+    },
+    {
+      "name": "红杏云",
+      "aliases": [
+        "红杏云"
+      ],
+      "sources": [
+        "Abao130__xingjiabijichang"
+      ],
+      "priceObs": [
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "",
+          "src": "Abao130__xingjiabijichang"
+        }
+      ],
+      "minMonthly": 20,
+      "line": "IEPL专线+原生住宅",
+      "hosts": [
+        "go.clashshome.com"
+      ],
+      "urls": [
+        "https://go.clashshome.com/hongxingyun"
+      ]
+    },
+    {
+      "name": "快雷GO",
+      "aliases": [
+        "快雷GO"
+      ],
+      "sources": [
+        "Abao130__xingjiabijichang",
+        "clashvpnss__jichang-tuijian-2026"
+      ],
+      "priceObs": [
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "",
+          "src": "Abao130__xingjiabijichang"
+        },
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        }
+      ],
+      "minMonthly": 20,
+      "line": "IEPL专线",
+      "hosts": [
+        "go.clashshome.com"
+      ],
+      "urls": [
+        "https://go.clashshome.com/kuaileigo"
+      ],
+      "protocol": "官方未标注"
+    },
+    {
+      "name": "一翻云",
+      "aliases": [
+        "一翻云"
+      ],
+      "sources": [
+        "clash-vless__2026-jichang-tuijian",
+        "clashhubs__jichang-tuijian-clash",
+        "clashvpnss__jichang-tuijian-2026",
+        "jichangx__2026-jichangcha-tuijian",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "priceObs": [
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "月付",
+          "src": "clash-vless__2026-jichang-tuijian"
+        },
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 20,
+          "gb": 150,
+          "cycle": "月付",
+          "src": "jichangx__2026-jichangcha-tuijian"
+        },
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        },
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 20,
+      "cycle": "月付",
+      "score": 9,
+      "hosts": [
+        "wzjc.1flyunaff.cc"
+      ],
+      "urls": [
+        "https://wzjc.1flyunaff.cc/#/register?code=tbeNQRPr"
+      ],
+      "code": "tbeNQRPr",
+      "line": "IEPL 专线（官方标称）",
+      "protocol": "VLESS",
+      "gb": 150,
+      "pricePerGb": 0.1333,
+      "coupon": "1FLYYUN",
+      "tier": "性价比机场",
+      "afterCoupon": 18,
+      "nodes": 85
+    },
+    {
+      "name": "U1S1",
+      "aliases": [
+        "U1S1",
+        "U1S1专线机场"
+      ],
+      "sources": [
+        "clash-vless__2026-jichang-tuijian",
+        "clashhubs__jichang-tuijian-clash",
+        "clashvpnss__jichang-tuijian-2026",
+        "jctz123__jichangtizi-youhuima",
+        "jichangx__2026-jichangcha-tuijian",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "note": "极速推荐",
+      "hosts": [
+        "pkdj7.vipaff.cc"
+      ],
+      "urls": [
+        "https://pkdj7.vipaff.cc/#/?code=tRUSpINv"
+      ],
+      "code": "tRUSpINv",
+      "priceObs": [
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 20,
+          "gb": 120,
+          "cycle": "月付",
+          "src": "jichangx__2026-jichangcha-tuijian"
+        },
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        },
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 20,
+      "line": "BGP 国内中转",
+      "protocol": "Vmess / Trojan",
+      "coupon": "U1S1",
+      "gb": 120,
+      "cycle": "月付",
+      "pricePerGb": 0.1667,
+      "tier": "老牌机场",
+      "score": 3.7,
+      "nodes": 49
+    },
+    {
+      "name": "全球云",
+      "aliases": [
+        "全球云"
+      ],
+      "sources": [
+        "clash-vless__2026-jichang-tuijian",
+        "clashhubs__jichang-tuijian-clash",
+        "clashvpnss__jichang-tuijian-2026",
+        "jichangx__2026-jichangcha-tuijian",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "hosts": [
+        "sswdh.gcvipaff.com"
+      ],
+      "urls": [
+        "https://sswdh.gcvipaff.com/#/?code=3MhukrnO"
+      ],
+      "code": "3MhukrnO",
+      "priceObs": [
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 20,
+          "gb": 120,
+          "cycle": "月付",
+          "src": "jichangx__2026-jichangcha-tuijian"
+        },
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        },
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 20,
+      "line": "IEPL 专线直连",
+      "protocol": "Shadowsocks / Trojan",
+      "gb": 120,
+      "cycle": "月付",
+      "pricePerGb": 0.1667,
+      "tier": "老牌机场",
+      "score": 3.5,
+      "nodes": 33
+    },
+    {
+      "name": "二猫云",
+      "aliases": [
+        "二猫云"
+      ],
+      "sources": [
+        "clash-vless__2026-jichang-tuijian",
+        "clashhubs__jichang-tuijian-clash",
+        "clashvpnss__jichang-tuijian-2026",
+        "jichangx__2026-jichangcha-tuijian",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "hosts": [
+        "wzjc.2maoyunaff.cc"
+      ],
+      "urls": [
+        "https://wzjc.2maoyunaff.cc/#/register?code=soeIROqY"
+      ],
+      "code": "soeIROqY",
+      "priceObs": [
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 20,
+          "gb": 130,
+          "cycle": "月付",
+          "src": "jichangx__2026-jichangcha-tuijian"
+        },
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        },
+        {
+          "v": 20,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 20,
+      "line": "公网中转 / 优化",
+      "protocol": "Hysteria2 / TUIC",
+      "gb": 130,
+      "cycle": "月付",
+      "pricePerGb": 0.1538,
+      "coupon": "ermao888",
+      "tier": "性价比机场",
+      "score": 4.1,
+      "nodes": 40
+    },
+    {
+      "name": "TNTCloud",
+      "aliases": [
+        "TNTCloud"
+      ],
+      "sources": [
+        "KaWaIDeSuNe__xingjiabijichang"
+      ],
+      "priceObs": [
+        {
+          "v": 20,
+          "gb": 110,
+          "cycle": "月付",
+          "src": "KaWaIDeSuNe__xingjiabijichang"
+        }
+      ],
+      "minMonthly": 20,
+      "gb": 110,
+      "cycle": "月付",
+      "pricePerGb": 0.1818,
+      "hosts": [
+        "web01.tntyun.cc"
+      ],
+      "urls": [
+        "http://web01.tntyun.cc/#/register?code=GiCykFjU"
+      ],
+      "code": "GiCykFjU"
+    },
+    {
+      "name": "闪电鼠",
+      "aliases": [
+        "闪电鼠"
+      ],
+      "sources": [
+        "clashhubs__jichang-tuijian-clash",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "priceObs": [
+        {
+          "v": 22,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 22,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 22,
+      "tier": "主流性价比"
+    },
+    {
+      "name": "大佬云",
+      "aliases": [
+        "大佬云"
+      ],
+      "sources": [
+        "clashhubs__jichang-tuijian-clash",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "priceObs": [
+        {
+          "v": 23,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 23,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 23,
+      "tier": "高价档"
+    },
+    {
+      "name": "环球梯",
+      "aliases": [
+        "环球梯"
+      ],
+      "sources": [
+        "clashhubs__jichang-tuijian-clash",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "priceObs": [
+        {
+          "v": 23,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 23,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 23,
+      "tier": "高价档"
+    },
+    {
+      "name": "神行加速",
+      "aliases": [
+        "神行加速"
+      ],
+      "sources": [
+        "clashhubs__jichang-tuijian-clash",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "priceObs": [
+        {
+          "v": 23,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 23,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 23,
+      "tier": "高价档"
+    },
+    {
+      "name": "榴莲云",
+      "aliases": [
+        "榴莲云"
+      ],
+      "sources": [
+        "clashhubs__jichang-tuijian-clash",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "priceObs": [
+        {
+          "v": 24,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 24,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 24,
+      "coupon": "ll88",
+      "tier": "高价档"
+    },
+    {
+      "name": "sogo云",
+      "aliases": [
+        "sogo云"
+      ],
+      "sources": [
+        "clash-vless__2026-jichang-tuijian",
+        "clashhubs__jichang-tuijian-clash",
+        "clashvpnss__jichang-tuijian-2026",
+        "jichangx__2026-jichangcha-tuijian",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "hosts": [
+        "wzjc.sogoyunaff.cc"
+      ],
+      "urls": [
+        "https://wzjc.sogoyunaff.cc/#/login?code=Uw3V5bir"
+      ],
+      "code": "Uw3V5bir",
+      "priceObs": [
+        {
+          "v": 25,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 25,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 25,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 25,
+          "gb": 150,
+          "cycle": "月付",
+          "src": "jichangx__2026-jichangcha-tuijian"
+        },
+        {
+          "v": 25,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        },
+        {
+          "v": 25,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 25,
+      "line": "BGP 入口专线",
+      "protocol": "V2Ray / Vless",
+      "gb": 150,
+      "cycle": "月付",
+      "pricePerGb": 0.1667,
+      "coupon": "SOGO10000",
+      "tier": "性价比机场",
+      "afterCoupon": 22,
+      "score": 4.1,
+      "nodes": 45
+    },
+    {
+      "name": "Firefly",
+      "aliases": [
+        "Firefly"
+      ],
+      "sources": [
+        "clashhubs__jichang-tuijian-clash",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "priceObs": [
+        {
+          "v": 25,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 25,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        },
+        {
+          "v": 25,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 25,
+      "coupon": "firefly",
+      "tier": "高价档"
+    },
+    {
+      "name": "FlyV",
+      "aliases": [
+        "FlyV"
+      ],
+      "sources": [
+        "clashhubs__jichang-tuijian-clash",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "priceObs": [
+        {
+          "v": 25,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 25,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        },
+        {
+          "v": 25,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 25,
+      "coupon": "fly20",
+      "tier": "高价档"
+    },
+    {
+      "name": "云界线",
+      "aliases": [
+        "云界线"
+      ],
+      "sources": [
+        "clashhubs__jichang-tuijian-clash",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "priceObs": [
+        {
+          "v": 25,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 25,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 25,
+      "tier": "高价档"
+    },
+    {
+      "name": "FlowerCloud (花云)",
+      "aliases": [
+        "FlowerCloud (花云)"
+      ],
+      "sources": [
+        "clashvpnss__jichang-tuijian-2026"
+      ],
+      "priceObs": [
+        {
+          "v": 25,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 25,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        }
+      ],
+      "minMonthly": 25,
+      "line": "BGP 入口专线",
+      "protocol": "Trojan / SSR"
+    },
+    {
+      "name": "365VPN",
+      "aliases": [
+        "365VPN"
+      ],
+      "sources": [
+        "hwanz__SSR-V2ray-Trojan"
+      ],
+      "priceObs": [
+        {
+          "v": 25,
+          "gb": 50,
+          "cycle": "季付",
+          "src": "hwanz__SSR-V2ray-Trojan"
+        }
+      ],
+      "minMonthly": 25,
+      "gb": 50,
+      "cycle": "季付",
+      "pricePerGb": 0.5
+    },
+    {
+      "name": "海獭",
+      "aliases": [
+        "海獭"
+      ],
+      "sources": [
+        "hwanz__SSR-V2ray-Trojan"
+      ],
+      "priceObs": [
+        {
+          "v": 25,
+          "gb": 50,
+          "cycle": "季付",
+          "src": "hwanz__SSR-V2ray-Trojan"
+        }
+      ],
+      "minMonthly": 25,
+      "gb": 50,
+      "cycle": "季付",
+      "pricePerGb": 0.5
+    },
+    {
+      "name": "web3",
+      "aliases": [
+        "web3",
+        "Web3VPN"
+      ],
+      "sources": [
+        "hwanz__SSR-V2ray-Trojan",
+        "lynkco01__jichangtuijian"
+      ],
+      "priceObs": [
+        {
+          "v": 25,
+          "gb": 200,
+          "cycle": "月付",
+          "src": "hwanz__SSR-V2ray-Trojan"
+        }
+      ],
+      "minMonthly": 25,
+      "gb": 200,
+      "cycle": "月付",
+      "pricePerGb": 0.125,
+      "hosts": [
+        "clashxiazai.com"
+      ],
+      "urls": [
+        "https://clashxiazai.com/web3vpn"
+      ]
+    },
+    {
+      "name": "青云梯",
+      "aliases": [
+        "青云梯"
+      ],
+      "sources": [
+        "KaWaIDeSuNe__xingjiabijichang"
+      ],
+      "priceObs": [
+        {
+          "v": 25,
+          "gb": 150,
+          "cycle": "月付",
+          "src": "KaWaIDeSuNe__xingjiabijichang"
+        }
+      ],
+      "minMonthly": 25,
+      "gb": 150,
+      "cycle": "月付",
+      "pricePerGb": 0.1667,
+      "hosts": [
+        "a22.qytaff01.cc"
+      ],
+      "urls": [
+        "https://a22.qytaff01.cc/verify?next=%2Fregister%3Faff%3DymkMqBTU"
+      ]
+    },
+    {
+      "name": "WgetCloud",
+      "aliases": [
+        "WgetCloud",
+        "WgetCloud机场"
+      ],
+      "sources": [
+        "clashvpnss__jichang-tuijian-2026",
+        "hwanz__SSR-V2ray-Trojan",
+        "jctz123__jichangtizi-youhuima"
+      ],
+      "priceObs": [
+        {
+          "v": 28,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 28,
+          "gb": null,
+          "cycle": "",
+          "src": "clashvpnss__jichang-tuijian-2026"
+        },
+        {
+          "v": 59,
+          "gb": 140,
+          "cycle": "月付",
+          "src": "hwanz__SSR-V2ray-Trojan"
+        }
+      ],
+      "minMonthly": 28,
+      "line": "多机房集群负载（官网未标注专线类型）",
+      "protocol": "Trojan",
+      "gb": 140,
+      "cycle": "月付",
+      "pricePerGb": 0.4214,
+      "coupon": "无需优惠码"
+    },
+    {
+      "name": "灯塔 CLOUD",
+      "aliases": [
+        "灯塔 CLOUD",
+        "灯塔"
+      ],
+      "sources": [
+        "clashhubs__jichang-tuijian-clash",
+        "hwanz__SSR-V2ray-Trojan"
+      ],
+      "priceObs": [
+        {
+          "v": 69.99,
+          "gb": 80,
+          "cycle": "季付",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 30,
+          "gb": 120,
+          "cycle": "月付",
+          "src": "hwanz__SSR-V2ray-Trojan"
+        }
+      ],
+      "minMonthly": 30,
+      "gb": 120,
+      "cycle": "月付",
+      "pricePerGb": 0.25
+    },
+    {
+      "name": "极速Cloud",
+      "aliases": [
+        "极速Cloud"
+      ],
+      "sources": [
+        "clashhubs__jichang-tuijian-clash",
+        "jichangyyds-net__jichang-tuijian-shice"
+      ],
+      "priceObs": [
+        {
+          "v": 30,
+          "gb": null,
+          "cycle": "",
+          "src": "clashhubs__jichang-tuijian-clash"
+        },
+        {
+          "v": 30,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        },
+        {
+          "v": 30,
+          "gb": null,
+          "cycle": "",
+          "src": "jichangyyds-net__jichang-tuijian-shice"
+        }
+      ],
+      "minMonthly": 30,
+      "coupon": "ikds88",
+      "tier": "高价档"
+    },
+    {
+      "name": "老猫云",
+      "aliases": [
+        "老猫云"
+      ],
+      "sources": [
+        "hwanz__SSR-V2ray-Trojan"
+      ],
+      "priceObs": [
+        {
+          "v": 45,
+          "gb": 50,
+          "cycle": "季付",
+          "src": "hwanz__SSR-V2ray-Trojan"
+        }
+      ],
+      "minMonthly": 45,
+      "gb": 50,
+      "cycle": "季付",
+      "pricePerGb": 0.9
+    },
+    {
+      "name": "贝贝云",
+      "aliases": [
+        "贝贝云"
+      ],
+      "sources": [
+        "hwanz__SSR-V2ray-Trojan"
+      ],
+      "priceObs": [
+        {
+          "v": 129.9,
+          "gb": 100,
+          "cycle": "半年",
+          "src": "hwanz__SSR-V2ray-Trojan"
+        }
+      ],
+      "minMonthly": 129.9,
+      "gb": 100,
+      "cycle": "半年",
+      "pricePerGb": 1.299
+    },
+    {
+      "name": "Kycloud",
+      "aliases": [
+        "Kycloud"
+      ],
+      "sources": [
+        "hwanz__SSR-V2ray-Trojan"
+      ],
+      "priceObs": [
+        {
+          "v": 150,
+          "gb": 10,
+          "cycle": "年付",
+          "src": "hwanz__SSR-V2ray-Trojan"
+        }
+      ],
+      "minMonthly": 150,
+      "gb": 10,
+      "cycle": "年付",
+      "pricePerGb": 15
+    },
+    {
+      "name": "TAG",
+      "aliases": [
+        "TAG"
+      ],
+      "sources": [
+        "hwanz__SSR-V2ray-Trojan"
+      ],
+      "priceObs": [
+        {
+          "v": 154,
+          "gb": 200,
+          "cycle": "年付",
+          "src": "hwanz__SSR-V2ray-Trojan"
+        }
+      ],
+      "minMonthly": 154,
+      "gb": 200,
+      "cycle": "年付",
+      "pricePerGb": 0.77
+    },
+    {
+      "name": "悠兔",
+      "aliases": [
+        "悠兔"
+      ],
+      "sources": [
+        "hwanz__SSR-V2ray-Trojan"
+      ],
+      "priceObs": [
+        {
+          "v": 199,
+          "gb": 200,
+          "cycle": "年付",
+          "src": "hwanz__SSR-V2ray-Trojan"
+        }
+      ],
+      "minMonthly": 199,
+      "gb": 200,
+      "cycle": "年付",
+      "pricePerGb": 0.995
+    },
+    {
+      "name": "E-IX",
+      "aliases": [
+        "E-IX"
+      ],
+      "sources": [
+        "hwanz__SSR-V2ray-Trojan"
+      ],
+      "priceObs": [
+        {
+          "v": 199,
+          "gb": 1024,
+          "cycle": "年付",
+          "src": "hwanz__SSR-V2ray-Trojan"
+        }
+      ],
+      "minMonthly": 199,
+      "gb": 1024,
+      "cycle": "年付",
+      "pricePerGb": 0.1943
+    },
+    {
+      "name": "BoostNet",
+      "aliases": [
+        "BoostNet"
+      ],
+      "sources": [
+        "hwanz__SSR-V2ray-Trojan"
+      ],
+      "priceObs": [
+        {
+          "v": 260,
+          "gb": 200,
+          "cycle": "半年",
+          "src": "hwanz__SSR-V2ray-Trojan"
+        }
+      ],
+      "minMonthly": 260,
+      "gb": 200,
+      "cycle": "半年",
+      "pricePerGb": 1.3
+    },
+    {
+      "name": "性价比最高",
+      "aliases": [
+        "性价比最高"
+      ],
+      "sources": [
+        "Abao130__xingjiabijichang"
+      ],
+      "hosts": [
+        "go.clashshome.com"
+      ],
+      "urls": [
+        "https://go.clashshome.com/hongxingyun"
+      ]
+    },
+    {
+      "name": "特朗普云 TrumpYun",
+      "aliases": [
+        "特朗普云 TrumpYun"
+      ],
+      "sources": [
+        "Abao130__xingjiabijichang"
+      ],
+      "hosts": [
+        "go.clashshome.com"
+      ],
+      "urls": [
+        "https://go.clashshome.com/trumpyun"
+      ]
+    },
+    {
+      "name": "良心云",
+      "aliases": [
+        "良心云"
+      ],
+      "sources": [
+        "chaopianyijichang__1yuanjichang",
+        "KaWaIDeSuNe__dijiajichang"
+      ],
+      "tier": "追求便宜 / 流量要求多",
+      "hosts": [
+        "xn--9kqz23b19z.com"
+      ],
+      "urls": [
+        "https://xn--9kqz23b19z.com/#/register?code=GZScPc3e"
+      ],
+      "code": "GZScPc3e"
+    },
+    {
+      "name": "低价评级一览",
+      "aliases": [
+        "低价评级一览"
+      ],
+      "sources": [
+        "chaopianyijichang__1yuanjichang"
+      ],
+      "hosts": [
+        "pin.dianping.men"
+      ],
+      "urls": [
+        "https://pin.dianping.men/auth/register?code=V1TksbQ0"
+      ],
+      "code": "V1TksbQ0"
+    },
+    {
+      "name": "核心指数对比",
+      "aliases": [
+        "核心指数对比"
+      ],
+      "sources": [
+        "clash-vless__2026-jichang-tuijian"
+      ],
+      "note": "综合评分",
+      "hosts": [
+        "quickchart.io"
+      ],
+      "urls": [
+        "https://quickchart.io/chart?c=%7B%22type%22%3A%22horizontalBar%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22%E9%A3%9E%E7%8C%AB%E4%BA%91%20(Flycat"
+      ]
+    },
+    {
+      "name": "主流客户端下载与配置指南",
+      "aliases": [
+        "主流客户端下载与配置指南"
+      ],
+      "sources": [
+        "clash-vless__2026-jichang-tuijian"
+      ],
+      "hosts": [
+        "clash-vless.com"
+      ],
+      "urls": [
+        "https://clash-vless.com/"
+      ]
+    },
+    {
+      "name": "综合首选榜单",
+      "aliases": [
+        "综合首选榜单"
+      ],
+      "sources": [
+        "clash-vless__2026-jichang-tuijian"
+      ],
+      "note": "Top Picks",
+      "hosts": [
+        "clash-vless.com"
+      ],
+      "urls": [
+        "https://clash-vless.com/recommended"
+      ]
+    },
+    {
+      "name": "幕光",
+      "aliases": [
+        "幕光"
+      ],
+      "sources": [
+        "clash-vless__2026-jichang-tuijian"
+      ],
+      "hosts": [
+        "work05.twilightaff.com"
+      ],
+      "urls": [
+        "https://work05.twilightaff.com/#/?code=W1DyBsoX"
+      ],
+      "code": "W1DyBsoX"
+    },
+    {
+      "name": "2026-10 客户端与内核版本",
+      "aliases": [
+        "2026-10 客户端与内核版本"
+      ],
+      "sources": [
+        "clashhubs__jichang-tuijian-clash"
+      ],
+      "hosts": [
+        "wiki.metacubex.one"
+      ],
+      "urls": [
+        "https://wiki.metacubex.one/"
+      ],
+      "jumpUrl": "https://github.com/MetaCubeX/mihomo/releases"
+    },
+    {
+      "name": "万象加速",
+      "aliases": [
+        "万象加速"
+      ],
+      "sources": [
+        "clashvpnss__jichang-tuijian-2026"
+      ],
+      "line": "CN2 / CUII / CMI 优化线路（官方标称）",
+      "protocol": "官方未标注"
+    },
+    {
+      "name": "CONNECT 说明的是隧道动作",
+      "aliases": [
+        "CONNECT 说明的是隧道动作"
+      ],
+      "sources": [
+        "clashvpnss__jichang-tuijian-2026"
+      ],
+      "hosts": [
+        "rfc-editor.org"
+      ],
+      "urls": [
+        "https://www.rfc-editor.org/rfc/rfc9110"
+      ]
+    },
+    {
+      "name": "SOCKS 的层级与机密性分别阅读",
+      "aliases": [
+        "SOCKS 的层级与机密性分别阅读"
+      ],
+      "sources": [
+        "clashvpnss__jichang-tuijian-2026"
+      ],
+      "hosts": [
+        "rfc-editor.org"
+      ],
+      "urls": [
+        "https://www.rfc-editor.org/rfc/rfc1928"
+      ]
+    },
+    {
+      "name": "系统文档描述接口，不替工具作优劣比较",
+      "aliases": [
+        "系统文档描述接口，不替工具作优劣比较"
+      ],
+      "sources": [
+        "clashvpnss__jichang-tuijian-2026"
+      ],
+      "hosts": [
+        "developer.android.com"
+      ],
+      "urls": [
+        "https://developer.android.com/reference/android/net/VpnService"
+      ]
+    },
+    {
+      "name": "免费收入与历史研究需要标注年份",
+      "aliases": [
+        "免费收入与历史研究需要标注年份"
+      ],
+      "sources": [
+        "clashvpnss__jichang-tuijian-2026"
+      ],
+      "hosts": [
+        "ftc.gov"
+      ],
+      "urls": [
+        "https://www.ftc.gov/business-guidance/blog/2018/02/market-vpn-app"
+      ]
+    },
+    {
+      "name": "按平台和资料范围继续选择",
+      "aliases": [
+        "按平台和资料范围继续选择"
+      ],
+      "sources": [
+        "clashvpnss__jichang-tuijian-2026"
+      ],
+      "hosts": [
+        "protonvpn.com"
+      ],
+      "urls": [
+        "https://protonvpn.com/free-vpn"
+      ]
+    },
+    {
+      "name": "iOS 先对照商店开发者与兼容性",
+      "aliases": [
+        "iOS 先对照商店开发者与兼容性"
+      ],
+      "sources": [
+        "clashvpnss__jichang-tuijian-2026"
+      ],
+      "hosts": [
+        "apps.apple.com"
+      ],
+      "urls": [
+        "https://apps.apple.com/us/app/shadowrocket/id932747118"
+      ]
+    },
+    {
+      "name": "内容分类只用来区分本章的入口",
+      "aliases": [
+        "内容分类只用来区分本章的入口"
+      ],
+      "sources": [
+        "clashvpnss__jichang-tuijian-2026"
+      ],
+      "hosts": [
+        "wiki.metacubex.one"
+      ],
+      "urls": [
+        "https://wiki.metacubex.one/"
+      ]
+    },
+    {
+      "name": "许可",
+      "aliases": [
+        "许可"
+      ],
+      "sources": [
+        "clashvpnss__jichang-tuijian-2026"
+      ],
+      "hosts": [
+        "creativecommons.org"
+      ],
+      "urls": [
+        "https://creativecommons.org/licenses/by/4.0/"
+      ]
+    },
+    {
+      "name": "与线路：",
+      "aliases": [
+        "与线路："
+      ],
+      "sources": [
+        "hwanz__SSR-V2ray-Trojan"
+      ],
+      "hosts": [
+        "justmysocks.net"
+      ],
+      "urls": [
+        "https://justmysocks.net/members/cart.php"
+      ]
+    },
+    {
+      "name": "一枝红杏加速器",
+      "aliases": [
+        "一枝红杏加速器"
+      ],
+      "sources": [
+        "jctz123__jichangtizi-youhuima"
+      ],
+      "coupon": "11meigui"
+    },
+    {
+      "name": "CyberGuard机场",
+      "aliases": [
+        "CyberGuard机场"
+      ],
+      "sources": [
+        "jctz123__jichangtizi-youhuima"
+      ],
+      "coupon": "11meigui"
+    },
+    {
+      "name": "BigME.Pro大米机场",
+      "aliases": [
+        "BigME.Pro大米机场"
+      ],
+      "sources": [
+        "jctz123__jichangtizi-youhuima"
+      ],
+      "coupon": "clashx.cc"
+    },
+    {
+      "name": "肥猫云",
+      "aliases": [
+        "肥猫云"
+      ],
+      "sources": [
+        "jctz123__jichangtizi-youhuima"
+      ],
+      "coupon": "clashx.cc"
+    },
+    {
+      "name": "赔钱机场",
+      "aliases": [
+        "赔钱机场"
+      ],
+      "sources": [
+        "jctz123__jichangtizi-youhuima"
+      ],
+      "coupon": "1111"
+    },
+    {
+      "name": "咕嘎云机场",
+      "aliases": [
+        "咕嘎云机场"
+      ],
+      "sources": [
+        "jctz123__jichangtizi-youhuima"
+      ],
+      "coupon": "2026D0UBLE11"
+    },
+    {
+      "name": "红杏云机场",
+      "aliases": [
+        "红杏云机场"
+      ],
+      "sources": [
+        "jctz123__jichangtizi-youhuima"
+      ],
+      "coupon": "红杏云全新升级2027"
+    },
+    {
+      "name": "雪橇云机场",
+      "aliases": [
+        "雪橇云机场"
+      ],
+      "sources": [
+        "jctz123__jichangtizi-youhuima"
+      ],
+      "coupon": "11meigui"
+    },
+    {
+      "name": "精靈學院机场",
+      "aliases": [
+        "精靈學院机场"
+      ],
+      "sources": [
+        "jctz123__jichangtizi-youhuima"
+      ],
+      "coupon": "New2025"
+    },
+    {
+      "name": "疾风云机场",
+      "aliases": [
+        "疾风云机场"
+      ],
+      "sources": [
+        "jctz123__jichangtizi-youhuima"
+      ],
+      "coupon": "clashx.cc"
+    },
+    {
+      "name": "扬帆云",
+      "aliases": [
+        "扬帆云"
+      ],
+      "sources": [
+        "jctz123__jichangtizi-youhuima"
+      ],
+      "coupon": "clashx.cc"
+    },
+    {
+      "name": "蓝帆云机场",
+      "aliases": [
+        "蓝帆云机场"
+      ],
+      "sources": [
+        "jctz123__jichangtizi-youhuima"
+      ],
+      "coupon": "lanfan"
+    },
+    {
+      "name": "糖果云机场",
+      "aliases": [
+        "糖果云机场"
+      ],
+      "sources": [
+        "jctz123__jichangtizi-youhuima"
+      ],
+      "coupon": "clashx.cc"
+    },
+    {
+      "name": "闪电猫机场",
+      "aliases": [
+        "闪电猫机场"
+      ],
+      "sources": [
+        "jctz123__jichangtizi-youhuima"
+      ],
+      "coupon": "无需优惠码"
+    },
+    {
+      "name": "尔湾云机场",
+      "aliases": [
+        "尔湾云机场"
+      ],
+      "sources": [
+        "jctz123__jichangtizi-youhuima"
+      ],
+      "coupon": "ss12"
+    },
+    {
+      "name": "11月最新优惠码汇总",
+      "aliases": [
+        "11月最新优惠码汇总"
+      ],
+      "sources": [
+        "jctz123__jichangtizi-youhuima"
+      ],
+      "hosts": [
+        "go2lk.pages.dev"
+      ],
+      "urls": [
+        "https://go2lk.pages.dev/cuakh4"
+      ]
+    },
+    {
+      "name": "11月最新试用汇总",
+      "aliases": [
+        "11月最新试用汇总"
+      ],
+      "sources": [
+        "jctz123__jichangtizi-youhuima"
+      ],
+      "hosts": [
+        "go2lk.pages.dev"
+      ],
+      "urls": [
+        "https://go2lk.pages.dev/dq27tj"
+      ]
+    },
+    {
+      "name": "Soonlink",
+      "aliases": [
+        "Soonlink"
+      ],
+      "sources": [
+        "jichang007__mianfeijichang"
+      ],
+      "note": "迅连",
+      "hosts": [
+        "soontg.kbr1g.com"
+      ],
+      "urls": [
+        "https://soontg.kbr1g.com/register?code=9dpMxsqS"
+      ],
+      "code": "9dpMxsqS"
+    },
+    {
+      "name": "Maoyun",
+      "aliases": [
+        "Maoyun"
+      ],
+      "sources": [
+        "jichang007__mianfeijichang"
+      ],
+      "note": "猫云",
+      "hosts": [
+        "maoyun.org"
+      ],
+      "urls": [
+        "https://www.maoyun.org/index.php#/register?code=lZzbjptP"
+      ],
+      "code": "lZzbjptP"
+    },
+    {
+      "name": "网际快车",
+      "aliases": [
+        "网际快车"
+      ],
+      "sources": [
+        "jichang007__mianfeijichang"
+      ],
+      "hosts": [
+        "uexrnb.xn--66tw07h.com"
+      ],
+      "urls": [
+        "https://uexrnb.xn--66tw07h.com"
+      ]
+    },
+    {
+      "name": "Runway Cloud",
+      "aliases": [
+        "Runway Cloud"
+      ],
+      "sources": [
+        "jichang007__mianfeijichang"
+      ],
+      "note": "拼好连",
+      "hosts": [
+        "ydzzyujrrv.runwayhz.com"
+      ],
+      "urls": [
+        "https://ydzzyujrrv.runwayhz.com/#/register?code=PHwFT8EU"
+      ],
+      "code": "PHwFT8EU"
+    },
+    {
+      "name": "杨帆云",
+      "aliases": [
+        "杨帆云"
+      ],
+      "sources": [
+        "jichangx__2026-jichangcha-tuijian"
+      ],
+      "coupon": "yf6189",
+      "tier": "性价比机场"
+    },
+    {
+      "name": "疾风云",
+      "aliases": [
+        "疾风云"
+      ],
+      "sources": [
+        "jichangx__2026-jichangcha-tuijian"
+      ],
+      "coupon": "jf5169",
+      "tier": "性价比机场"
+    },
+    {
+      "name": "尔湾云",
+      "aliases": [
+        "尔湾云"
+      ],
+      "sources": [
+        "jichangx__2026-jichangcha-tuijian"
+      ],
+      "coupon": "year69",
+      "tier": "性价比机场"
+    },
+    {
+      "name": "Star 历史",
+      "aliases": [
+        "Star 历史"
+      ],
+      "sources": [
+        "KaWaIDeSuNe__dijiajichang",
+        "KaWaIDeSuNe__xingjiabijichang",
+        "selierlin__Share-SSR-V2ray"
+      ],
+      "hosts": [
+        "star-history.dera.page"
+      ],
+      "urls": [
+        "https://star-history.dera.page/svg?repos=KaWaIDeSuNe/dijiajichang&type=Date",
+        "https://star-history.dera.page/svg?repos=KaWaIDeSuNe/xingjiabijichang&type=Date",
+        "https://star-history.dera.page/svg?repos=selierlin/Share-SSR-V2ray&type=Date"
+      ]
+    },
+    {
+      "name": "第三方客户端软件下载",
+      "aliases": [
+        "第三方客户端软件下载"
+      ],
+      "sources": [
+        "KaWaIDeSuNe__xingjiabijichang"
+      ],
+      "note": "配合订阅链接使用",
+      "hosts": [
+        "proxy.20261917.xyz"
+      ],
+      "urls": [
+        "https://proxy.20261917.xyz/guide/clients-download.html"
+      ]
+    },
+    {
+      "name": "WgetCloud 全球",
+      "aliases": [
+        "WgetCloud 全球"
+      ],
+      "sources": [
+        "lynkco01__jichangtuijian"
+      ],
+      "hosts": [
+        "clashsubs.com"
+      ],
+      "urls": [
+        "https://clashsubs.com/wgetcloud"
+      ]
+    },
+    {
+      "name": "翻墙协议",
+      "aliases": [
+        "翻墙协议"
+      ],
+      "sources": [
+        "lynkco01__jichangtuijian"
+      ],
+      "hosts": [
+        "clashxiazai.com"
+      ],
+      "urls": [
+        "https://clashxiazai.com/shadowsocks-v2ray-and-trojan-protocol-which-one-is-the-best/"
+      ]
+    },
+    {
+      "name": "iOS 系统翻墙的特殊性",
+      "aliases": [
+        "iOS 系统翻墙的特殊性"
+      ],
+      "sources": [
+        "lynkco01__jichangtuijian"
+      ],
+      "hosts": [
+        "clashxiazai.com"
+      ],
+      "urls": [
+        "https://clashxiazai.com/us-apple-id"
+      ]
+    },
+    {
+      "name": "我应该选择什么客户端？",
+      "aliases": [
+        "我应该选择什么客户端？"
+      ],
+      "sources": [
+        "lynkco01__jichangtuijian"
+      ],
+      "hosts": [
+        "clashios.com"
+      ],
+      "urls": [
+        "https://clashios.com/"
+      ]
+    },
+    {
+      "name": "尽量备用多个翻墙工具",
+      "aliases": [
+        "尽量备用多个翻墙工具"
+      ],
+      "sources": [
+        "lynkco01__jichangtuijian"
+      ],
+      "hosts": [
+        "clashsubs.com"
+      ],
+      "urls": [
+        "https://clashsubs.com/"
+      ]
+    },
+    {
+      "name": "镜像网站",
+      "aliases": [
+        "镜像网站"
+      ],
+      "sources": [
+        "selierlin__Share-SSR-V2ray"
+      ],
+      "hosts": [
+        "g.luciaz.me"
+      ],
+      "urls": [
+        "https://g.luciaz.me/extdomains/www.google.com"
+      ]
+    },
+    {
+      "name": "浏览器插件",
+      "aliases": [
+        "浏览器插件"
+      ],
+      "sources": [
+        "selierlin__Share-SSR-V2ray"
+      ],
+      "hosts": [
+        "a.newday.me"
+      ],
+      "urls": [
+        "https://a.newday.me/?scene=one_index_index"
+      ]
+    },
+    {
+      "name": "直连工具与临时网页代理",
+      "aliases": [
+        "直连工具与临时网页代理"
+      ],
+      "sources": [
+        "selierlin__Share-SSR-V2ray"
+      ],
+      "hosts": [
+        "play.google.com"
+      ],
+      "urls": [
+        "https://play.google.com/store/apps/details?id=net.upx.proxy.browser&hl=zh"
+      ]
+    },
+    {
+      "name": "阿拉丁",
+      "aliases": [
+        "阿拉丁"
+      ],
+      "sources": [
+        "xingjiabijichang2027__pianyijichang"
+      ],
+      "hosts": [
+        "dash.pqjc.site"
+      ],
+      "urls": [
+        "https://dash.pqjc.site/register?code=0zHBq7V2&cover=sfw"
+      ],
+      "code": "0zHBq7V2"
+    }
+  ]
+}

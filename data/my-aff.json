@@ -1,0 +1,64 @@
+{
+  "_状态": "6 家的推广链接已填入（作者本人注册所得，2026-11-13）",
+  "_价格": "价格另存 data/prices-verified.json，需登录后核实；未核实的正文一律标「待核实」",
+  "_验证": "6 个官网全部在 2026-11-13 检测：4 家真面板 + 2 家 Cloudflare 挑战（浏览器可开），无停放页、无死站",
+  "contact": "",
+  "aff": {
+    "edu.uodoo.bid": {
+      "code": "NGKhN0Gk",
+      "url": "https://edu.uodoo.bid/auth/register?code=NGKhN0Gk",
+      "rate": "",
+      "settle": "",
+      "note": "NanoCloud · 备用域名 edu.yuque.men / edge.shimo.men / edu.360buyimg.men"
+    },
+    "feiniaoyun.xyz": {
+      "code": "60qPhsLs",
+      "url": "https://feiniaoyun.xyz/#/register?code=60qPhsLs",
+      "rate": "30%（邀请新用户可得 30% 邀请返利，可提现）",
+      "settle": "",
+      "note": "飞鸟云 · 12元/年 50G/月，两年付20元(0.8元/月) · Hysteria2 · 不限设备 · 备用域名 basbax934676.xyz"
+    },
+    "hhneko.xyz": {
+      "code": "u6tqUfyQ",
+      "url": "https://hhneko.xyz/#/register?code=u6tqUfyQ",
+      "rate": "",
+      "settle": "",
+      "note": "Hneko云 · 主打速度"
+    },
+    "xn--4gq62f52gdss.top": {
+      "code": "mIryP7bm",
+      "url": "https://xn--4gq62f52gdss.top/#/register?code=mIryP7bm",
+      "rate": "",
+      "settle": "",
+      "note": "一元机场 · 备用域名 .com/.biz/.asia/.ink"
+    },
+    "app.fanqiangxia.com": {
+      "code": "JCzGhC1J",
+      "url": "https://app.fanqiangxia.com/#/register?code=JCzGhC1J",
+      "rate": "",
+      "settle": "",
+      "note": "翻墙侠 · 5.8元/月 1000G，12.8元/月 3000G，28.8元/年 500G · 1000Mbps · 3/5/10台设备"
+    },
+    "216.236.63.122": {
+      "code": "M5e0Q6iQ",
+      "url": "https://216.236.63.122/#/register?invite_code=M5e0Q6iQ",
+      "rate": "",
+      "settle": "",
+      "note": "九云 · 6元/150G，9元/300G，16元/600G，19.9元/500G不限时 · 下一期"
+    },
+    "jindyun.xyz": {
+      "code": "FRxMDa6U",
+      "url": "https://jindyun.xyz/#/register?code=FRxMDa6U",
+      "rate": "",
+      "settle": "",
+      "note": "毒蜘蛛VPN · 9.9元/50G，20元/150G，35元/300G · 下一期"
+    },
+    "xn--wtq35pfyd55o.co": {
+      "code": "RbJDwKdX",
+      "url": "https://xn--wtq35pfyd55o.co/#/register?code=RbJDwKdX",
+      "rate": "",
+      "settle": "",
+      "note": "便宜机场 · 13元/年 100G/月（1.08元/月），36元/三年 100G/月（1元/月）· 不限设备"
+    }
+  }
+}

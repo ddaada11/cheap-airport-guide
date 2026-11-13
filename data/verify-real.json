@@ -1,0 +1,106 @@
+{
+  "updated": "2026-11-13T11:41:17.844Z",
+  "proxy": "http://127.0.0.1:7897",
+  "total": 8,
+  "stat": {
+    "blank": 8
+  },
+  "items": [
+    {
+      "host": "app.fanqiangxia.com",
+      "at": "2026-11-13T11:41:13.951Z",
+      "status": 200,
+      "ms": 1401,
+      "verdict": "blank",
+      "reason": "内容仅 3 字符",
+      "title": "翻墙侠",
+      "len": 3,
+      "finalUrl": "https://app.fanqiangxia.com/",
+      "name": "翻墙侠"
+    },
+    {
+      "host": "edge.shimo.men",
+      "at": "2026-11-13T11:41:15.050Z",
+      "status": 200,
+      "ms": 2384,
+      "verdict": "blank",
+      "reason": "内容仅 20 字符",
+      "title": "NanoCloud",
+      "len": 20,
+      "finalUrl": "https://edge.shimo.men/",
+      "name": "NanoCloud"
+    },
+    {
+      "host": "edu.360buyimg.men",
+      "at": "2026-11-13T11:41:15.355Z",
+      "status": 200,
+      "ms": 2474,
+      "verdict": "blank",
+      "reason": "内容仅 20 字符",
+      "title": "NanoCloud",
+      "len": 20,
+      "finalUrl": "https://edu.360buyimg.men/",
+      "name": "NanoCloud"
+    },
+    {
+      "host": "edu.uodoo.bid",
+      "at": "2026-11-13T11:41:13.952Z",
+      "status": 200,
+      "ms": 2214,
+      "verdict": "blank",
+      "reason": "内容仅 20 字符",
+      "title": "NanoCloud",
+      "len": 20,
+      "finalUrl": "https://edu.uodoo.bid/",
+      "name": "NanoCloud"
+    },
+    {
+      "host": "edu.yuque.men",
+      "at": "2026-11-13T11:41:13.952Z",
+      "status": 200,
+      "ms": 2280,
+      "verdict": "blank",
+      "reason": "内容仅 20 字符",
+      "title": "NanoCloud",
+      "len": 20,
+      "finalUrl": "https://edu.yuque.men/",
+      "name": "NanoCloud"
+    },
+    {
+      "host": "k.hy2yyds.top",
+      "at": "2026-11-13T11:41:13.951Z",
+      "status": 200,
+      "ms": 1852,
+      "verdict": "blank",
+      "reason": "内容仅 11 字符",
+      "title": "Hy2yyds",
+      "len": 11,
+      "finalUrl": "https://k.hy2yyds.top/",
+      "name": "Hy2yyds"
+    },
+    {
+      "host": "zjyun.xyz",
+      "at": "2026-11-13T11:41:13.945Z",
+      "status": 200,
+      "ms": 1094,
+      "verdict": "blank",
+      "reason": "内容仅 0 字符",
+      "title": "",
+      "len": 0,
+      "finalUrl": "https://zjyun.xyz/",
+      "name": "知己云"
+    },
+    {
+      "host": "ztcloud.xyz",
+      "at": "2026-11-13T11:41:13.951Z",
+      "status": 436,
+      "ms": 2322,
+      "verdict": "blank",
+      "reason": "内容仅 0 字符",
+      "title": "",
+      "len": 0,
+      "finalUrl": "https://ztcloud.xyz/",
+      "name": "直通云 ZTCloud"
+    }
+  ]
+}

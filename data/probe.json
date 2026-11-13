@@ -1,0 +1,62 @@
+{
+  "updated": "2026-11-11T15:40:20.149Z",
+  "total": 6,
+  "ok": 0,
+  "items": [
+    {
+      "host": "star-history.dera.page",
+      "at": "2026-11-11T15:40:06.103Z",
+      "panel": "",
+      "plans": [],
+      "error": "plan: 非标准返回 404 Not Found",
+      "name": "Star 历史"
+    },
+    {
+      "host": "proxy.20261917.xyz",
+      "at": "2026-11-11T15:40:06.135Z",
+      "panel": "",
+      "plans": [],
+      "error": "plan: 非标准返回 ",
+      "name": "proxy.20261917.xyz"
+    },
+    {
+      "host": "goflybit.com",
+      "at": "2026-11-11T15:40:06.132Z",
+      "panel": "spa",
+      "plans": [],
+      "error": "plan: 非标准返回 <!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment",
+      "name": "FlyBit"
+    },
+    {
+      "host": "us.freecat.cloud",
+      "at": "2026-11-11T15:40:06.133Z",
+      "panel": "",
+      "plans": [],
+      "error": "config: The operation was aborted due to timeout | plan: The operation was aborted due to timeout",
+      "name": "自由猫"
+    },
+    {
+      "host": "mojie.app",
+      "at": "2026-11-11T15:40:06.134Z",
+      "panel": "",
+      "plans": [],
+      "error": "config: The operation was aborted due to timeout | plan: The operation was aborted due to timeout",
+      "name": "魔戒"
+    },
+    {
+      "host": "feiniaoyun.xyz",
+      "at": "2026-11-11T15:40:06.134Z",
+      "panel": "",
+      "plans": [],
+      "error": "config: The operation was aborted due to timeout | plan: The operation was aborted due to timeout",
+      "name": "feiniaoyun"
+    }
+  ],
+  "history": [
+    {
+      "at": "2026-11-11T15:40:20.149Z",
+      "total": 6,
+      "ok": 0
+    }
+  ]
+}
