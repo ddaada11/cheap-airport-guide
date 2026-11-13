@@ -1,0 +1,49 @@
+{
+  "updated": "2026-11-13T22:00:58.361Z",
+  "days": {
+    "2026-11-14": {
+      "一元机场": {
+        "ok": true,
+        "ms": 1074,
+        "code": 403,
+        "note": "",
+        "host": "xn--4gq62f52gdss.com"
+      },
+      "翻墙侠": {
+        "ok": true,
+        "ms": 1060,
+        "code": 200,
+        "note": "",
+        "host": "app.fanqiangxia.com"
+      },
+      "Hneko云": {
+        "ok": true,
+        "ms": 1805,
+        "code": 200,
+        "note": "",
+        "host": "hhneko.xyz"
+      },
+      "便宜机场": {
+        "ok": true,
+        "ms": 1379,
+        "code": 200,
+        "note": "",
+        "host": "xn--wtq35pfyd55o.co"
+      },
+      "NanoCloud": {
+        "ok": true,
+        "ms": 6344,
+        "code": 200,
+        "note": "",
+        "host": "edu.uodoo.bid"
+      },
+      "飞鸟云": {
+        "ok": true,
+        "ms": 1009,
+        "code": 403,
+        "note": "",
+        "host": "feiniaoyun.xyz"
+      }
+    }
+  }
+}

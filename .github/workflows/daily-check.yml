@@ -1,0 +1,40 @@
+name: daily-check
+
+# 每天自动检测各家机场官网可用性，更新 README 的「最近 7 天可用性」表格
+# 这样每天都有真实数据变化，不用为了 push 而硬改价格
+
+on:
+  schedule:
+    # UTC 22:00 = 北京时间 06:00，每天一次
+    - cron: '0 22 * * *'
+  workflow_dispatch: # 也可以在 Actions 页面手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 设置 Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 检测官网可用性并更新 README
+        run: node scripts/daily-check.mjs
+
+      - name: 提交变更
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md data/uptime.json
+          if git diff --staged --quiet; then
+            echo "没有变化，跳过提交"
+          else
+            git commit -m "chore: 每日可用性检测 $(TZ='Asia/Shanghai' date +%Y-%m-%d)"
+            git push
+          fi

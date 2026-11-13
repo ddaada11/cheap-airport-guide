@@ -29,6 +29,7 @@
     "topic:lean": "node scripts/topic-lean.mjs",
     "verify:real": "node scripts/verify-real.mjs",
     "check:site": "node scripts/check-site.mjs",
-    "readme": "node scripts/build-readme.mjs"
+    "readme": "node scripts/build-readme.mjs",
+    "daily": "node scripts/daily-check.mjs"
   }
 }
