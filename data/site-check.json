@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-13T13:02:12.563Z",
-  "total": 81,
+  "updated": "2026-11-14T11:00:12.816Z",
+  "total": 96,
   "items": [
     {
       "host": "app.fanqiangxia.com",
@@ -857,6 +857,168 @@
       "len": 4848,
       "note": "SPA 面板骨架",
       "finalUrl": "https://xn--wtq35pfyd55o.co/"
+    },
+    {
+      "host": "work.edgenovaaff.cc",
+      "at": "2026-11-14T10:59:54.520Z",
+      "status": 200,
+      "ms": 6593,
+      "verdict": "panel",
+      "title": "edgenova 线路检测",
+      "len": 901,
+      "note": "SPA 面板骨架",
+      "finalUrl": "https://work.edgenovaaff.cc/"
+    },
+    {
+      "host": "work.speedworldaff.cc",
+      "at": "2026-11-14T10:59:54.527Z",
+      "status": 200,
+      "ms": 6587,
+      "verdict": "panel",
+      "title": "速界 线路检测",
+      "len": 889,
+      "note": "SPA 面板骨架",
+      "finalUrl": "https://work.speedworldaff.cc/"
+    },
+    {
+      "host": "wzjc.1flyunaff.cc",
+      "at": "2026-11-14T10:59:54.528Z",
+      "status": 200,
+      "ms": 6586,
+      "verdict": "panel",
+      "title": "一翻云 线路检测",
+      "len": 891,
+      "note": "SPA 面板骨架",
+      "finalUrl": "https://wzjc.1flyunaff.cc/"
+    },
+    {
+      "host": "work.kosingaff.com",
+      "at": "2026-11-14T10:59:54.526Z",
+      "status": 200,
+      "ms": 7333,
+      "verdict": "panel",
+      "title": "可信云 线路检测",
+      "len": 891,
+      "note": "SPA 面板骨架",
+      "finalUrl": "https://work.kosingaff.com/"
+    },
+    {
+      "host": "baokemengjiasu.top",
+      "at": "2026-11-14T11:00:01.119Z",
+      "status": 200,
+      "ms": 5985,
+      "verdict": "panel",
+      "title": "宝可梦加速器官网 | ¥7.9/月起 · 新疆可用 · IEPL专线 · 100+节点",
+      "len": 34583,
+      "note": "SPA 面板骨架",
+      "finalUrl": "https://baokemengjiasu.top/"
+    },
+    {
+      "host": "wzjc.yuzoucloud.cc",
+      "at": "2026-11-14T11:00:01.118Z",
+      "status": 200,
+      "ms": 6355,
+      "verdict": "panel",
+      "title": "宇宙云 线路检测",
+      "len": 891,
+      "note": "SPA 面板骨架",
+      "finalUrl": "https://wzjc.yuzoucloud.cc/"
+    },
+    {
+      "host": "wzjc.2maoyunaff.cc",
+      "at": "2026-11-14T11:00:01.119Z",
+      "status": 200,
+      "ms": 6381,
+      "verdict": "panel",
+      "title": "二猫云 线路检测",
+      "len": 891,
+      "note": "SPA 面板骨架",
+      "finalUrl": "https://wzjc.2maoyunaff.cc/"
+    },
+    {
+      "host": "ggmq.gntaff.com",
+      "at": "2026-11-14T10:59:54.528Z",
+      "status": 200,
+      "ms": 6076,
+      "verdict": "spa-other",
+      "title": "线路检测",
+      "len": 24131,
+      "note": "有 JS 但无面板特征",
+      "finalUrl": "https://ggmq.gntaff.com/"
+    },
+    {
+      "host": "sswdh.gcvipaff.com",
+      "at": "2026-11-14T10:59:55.585Z",
+      "status": 200,
+      "ms": 6588,
+      "verdict": "spa-other",
+      "title": "线路检测",
+      "len": 24131,
+      "note": "有 JS 但无面板特征",
+      "finalUrl": "https://sswdh.gcvipaff.com/"
+    },
+    {
+      "host": "kdjhao.jlyvipaff.com",
+      "at": "2026-11-14T11:00:00.612Z",
+      "status": 200,
+      "ms": 6499,
+      "verdict": "spa-other",
+      "title": "线路检测",
+      "len": 26552,
+      "note": "有 JS 但无面板特征",
+      "finalUrl": "https://kdjhao.jlyvipaff.com/"
+    },
+    {
+      "host": "clash-vless.com",
+      "at": "2026-11-14T11:00:01.859Z",
+      "status": 200,
+      "ms": 6037,
+      "verdict": "spa-other",
+      "title": "银翼机场测评：2026 最新稳定翻墙机场推荐与专线网络测速榜",
+      "len": 82433,
+      "note": "有 JS 但无面板特征",
+      "finalUrl": "https://clash-vless.com/"
+    },
+    {
+      "host": "mdlky.gsyaff.com",
+      "at": "2026-11-14T11:00:02.177Z",
+      "status": 200,
+      "ms": 6489,
+      "verdict": "spa-other",
+      "title": "线路检测",
+      "len": 26552,
+      "note": "有 JS 但无面板特征",
+      "finalUrl": "https://mdlky.gsyaff.com/"
+    },
+    {
+      "host": "varnexa.kuailitttt.homes",
+      "at": "2026-11-14T10:59:54.527Z",
+      "status": 0,
+      "ms": 1058,
+      "verdict": "dead",
+      "title": "",
+      "len": 0,
+      "note": "fetch failed"
+    },
+    {
+      "host": "xn--9kq725n0tc.site",
+      "at": "2026-11-14T11:00:07.105Z",
+      "status": 0,
+      "ms": 778,
+      "verdict": "dead",
+      "title": "",
+      "len": 0,
+      "note": "fetch failed"
+    },
+    {
+      "host": "wukongyun.club",
+      "at": "2026-11-14T11:00:07.112Z",
+      "status": 0,
+      "ms": 5704,
+      "verdict": "dead",
+      "title": "",
+      "len": 0,
+      "note": "fetch failed"
     }
   ]
 }
