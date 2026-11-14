@@ -2,3 +2,6 @@ node_modules/
 .DS_Store
 *.log
 ref/
+
+# repo2 是独立仓库（stable-airport-guide），不纳入主仓库
+repo2/
