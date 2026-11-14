@@ -31,6 +31,7 @@
     "check:site": "node scripts/check-site.mjs",
     "readme": "node scripts/build-readme.mjs",
     "daily": "node scripts/daily-check.mjs",
-    "readme2": "node scripts/build-readme2.mjs"
+    "readme2": "node scripts/build-readme2.mjs",
+    "gate": "node scripts/publish-gate.mjs"
   }
 }

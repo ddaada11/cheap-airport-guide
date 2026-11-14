@@ -204,118 +204,240 @@
     "k.hy2yyds.top": "Hy2yyds —— 未注册成功",
     "xn--mes91t7ofgnw.com": "悟空机场 —— 未注册成功"
   },
-  "_下一期候选": {
-    "216.236.63.122": {
-      "name": "九云",
-      "at": "2026-11-13",
-      "source": "登录后「购买套餐」页截图",
-      "note": "永久官网 jiuyun.com；支持 Netflix/TikTok/ChatGPT/Gemini；有 TG 频道",
+  "verified2": {
+    "avbiu.azjstq.xyz": {
+      "name": "速界",
+      "at": "2026-11-14",
+      "source": "登录后「购买订阅」页截图",
+      "note": "全 IPLC 专线网络，最高 2.5Gbps，原生 IP，解锁 Netflix/Disney+/ChatGPT/TikTok，不限设备",
       "plans": [
         {
-          "name": "365天500G 流量包",
-          "price": 19.9,
-          "cycle": "不限时",
-          "gb": 500,
-          "note": "一次性，3 台设备"
-        },
-        {
-          "name": "365天1000G 流量包",
-          "price": 29.9,
-          "cycle": "不限时",
-          "gb": 1000,
-          "note": "一次性，5 台设备"
-        },
-        {
-          "name": "月付150G 招财版",
-          "price": 6,
+          "name": "限时体验月付小包",
+          "price": 15,
           "cycle": "月",
-          "gb": 150,
-          "note": "3 台设备"
+          "gb": 50,
+          "note": "1x 倍率，高峰期不降速"
         },
         {
-          "name": "月付300G 聚财版",
-          "price": 9,
+          "name": "极速版",
+          "price": 25,
           "cycle": "月",
-          "gb": 300,
-          "note": "4 台设备"
+          "gb": 130,
+          "note": "年付 8 折 / 两年 7 折 / 三年 6 折"
         },
         {
-          "name": "月付600G 旺财版",
-          "price": 16,
+          "name": "超速版",
+          "price": 50,
           "cycle": "月",
-          "gb": 600,
-          "note": "5 台设备"
+          "gb": 260,
+          "note": ""
         },
         {
-          "name": "季付200G 特惠",
-          "price": 18,
-          "cycle": "季",
-          "gb": 200,
-          "note": "3 台设备"
+          "name": "光速版",
+          "price": 99,
+          "cycle": "月",
+          "gb": 550,
+          "note": ""
         },
         {
-          "name": "年付200G 特惠",
-          "price": 68,
+          "name": "跃迁版",
+          "price": 200,
+          "cycle": "月",
+          "gb": 1024,
+          "note": ""
+        },
+        {
+          "name": "年费小包",
+          "price": 90,
           "cycle": "年",
-          "gb": 200,
-          "note": "3 台设备"
-        },
-        {
-          "name": "年付400G 特惠",
-          "price": 88,
-          "cycle": "年",
-          "gb": 400,
-          "note": "4 台设备"
+          "gb": 70,
+          "note": "10 元重置"
         }
       ]
     },
-    "jindyun.xyz": {
-      "name": "毒蜘蛛VPN",
-      "at": "2026-11-13",
+    "sygzfd.kexintztz2.xyz": {
+      "name": "可信云",
+      "at": "2026-11-14",
       "source": "登录后「购买订阅」页截图",
-      "note": "12 台入口，移动专线 + Amazon + 阿里云 + DMIT 中转；支持 Netflix/Disney+/YouTube/ChatGPT/Claude/Gemini；新疆福建不受限",
+      "note": "全 IEPL 专线，不限速、不限设备数量，60+ 顶级专线节点（港台日新美），原生 IP 解锁流媒体与 AI 工具",
       "plans": [
         {
-          "name": "口袋版-Micro",
-          "price": 9.9,
+          "name": "月付小包",
+          "price": 15,
           "cycle": "月",
-          "gb": 50,
-          "note": "3 台设备，支持 2K"
+          "gb": 60,
+          "note": "仅支持月付"
         },
         {
-          "name": "灵动版-mini",
+          "name": "基础版 Basic",
+          "price": 25,
+          "cycle": "月",
+          "gb": 150,
+          "note": "季付 95 折 / 半年 9 折 / 年付 85 折"
+        },
+        {
+          "name": "标准版 Standard",
+          "price": 50,
+          "cycle": "月",
+          "gb": 300,
+          "note": ""
+        },
+        {
+          "name": "专业版 Pro",
+          "price": 100,
+          "cycle": "月",
+          "gb": 600,
+          "note": ""
+        },
+        {
+          "name": "旗舰版 Ultimate",
+          "price": 200,
+          "cycle": "月",
+          "gb": 1228,
+          "note": ""
+        },
+        {
+          "name": "年费小礼包",
+          "price": 96,
+          "cycle": "年",
+          "gb": 60,
+          "note": "平均每月约 9 元"
+        }
+      ]
+    },
+    "plmxs.fjumpy.mom": {
+      "name": "一翻云",
+      "at": "2026-11-14",
+      "source": "登录后「购买订阅」页截图",
+      "note": "每月 150G 尊享 IEPL 专线高速流量，不限速、不限制设备同时在线，60+ 优质全球节点（港台日美）",
+      "plans": [
+        {
+          "name": "轻享版",
           "price": 20,
           "cycle": "月",
           "gb": 150,
-          "note": "3 台设备，支持 4K"
+          "note": "季付 55 / 半年 98 / 年付 168"
         },
         {
-          "name": "口袋版-季付",
-          "price": 30,
-          "cycle": "季",
-          "gb": 50,
-          "note": "3 台设备"
-        },
-        {
-          "name": "舒适版-Pro",
+          "name": "舒享版",
           "price": 35,
           "cycle": "月",
-          "gb": 300,
-          "note": "5 台设备，支持 2160P 4K"
+          "gb": 350,
+          "note": "季付 98 / 半年 178 / 年付 298"
         },
         {
-          "name": "畅享版-Ultra",
-          "price": 60,
+          "name": "尊享版",
+          "price": 55,
           "cycle": "月",
-          "gb": 500,
-          "note": "5 台设备"
+          "gb": 600,
+          "note": "季付 155 / 半年 288 / 年付 498"
         },
         {
-          "name": "不限时-forever",
-          "price": 100,
-          "cycle": "不限时",
+          "name": "极致版",
+          "price": 95,
+          "cycle": "月",
+          "gb": 1228,
+          "note": "季付 268 / 半年 498 / 年付 888"
+        },
+        {
+          "name": "限时季付折扣",
+          "price": 48,
+          "cycle": "季",
+          "gb": 150,
+          "note": "原价季付 55"
+        },
+        {
+          "name": "年付小包",
+          "price": 98,
+          "cycle": "年",
+          "gb": 60,
+          "note": ""
+        }
+      ]
+    },
+    "love3.p6m6.com": {
+      "name": "宝可梦加速器",
+      "at": "2026-11-14",
+      "source": "登录后「套餐购买」页截图（价格页 web4.52pokemon.cc）",
+      "note": "入门档 8.8 元为直连线路、限速 200Mbps；19.9 元起为 IEPL/IPLC/直连混合、限速 500Mbps。新疆可用，1Gbps 带宽保证",
+      "plans": [
+        {
+          "name": "入门精灵球",
+          "price": 8.8,
+          "cycle": "月",
+          "gb": 60,
+          "note": "⚠️ 直连线路，无专线，限速 200Mbps"
+        },
+        {
+          "name": "中级精灵球",
+          "price": 19.9,
+          "cycle": "月",
+          "gb": 180,
+          "note": "IEPL/IPLC/直连，限速 500Mbps，解锁流媒体与 ChatGPT"
+        },
+        {
+          "name": "高级精灵球",
+          "price": 29.9,
+          "cycle": "月",
           "gb": 300,
-          "note": "一次性，5 台设备"
+          "note": "限速 500Mbps，10 台设备"
+        },
+        {
+          "name": "超凡精灵球",
+          "price": 59.9,
+          "cycle": "月",
+          "gb": 666,
+          "note": "限速 500Mbps，100 台设备"
+        },
+        {
+          "name": "企业套餐",
+          "price": 189,
+          "cycle": "月",
+          "gb": 2000,
+          "note": "限速 500Mbps"
+        }
+      ]
+    },
+    "safvsf.erercatbiu.ink": {
+      "name": "二猫云",
+      "at": "2026-11-14",
+      "source": "登录后「购买订阅」页截图",
+      "note": "全 IEPL 专线，单节点峰值 2.5Gbps，原生 IP，解锁 Netflix/Disney+/ChatGPT/TikTok，不限设备，60+ 节点（港台日新美）",
+      "plans": [
+        {
+          "name": "白猫套餐",
+          "price": 20,
+          "cycle": "月",
+          "gb": 130,
+          "note": "月付/季付/半年/年付"
+        },
+        {
+          "name": "（230G 档）",
+          "price": 40,
+          "cycle": "月",
+          "gb": 230,
+          "note": ""
+        },
+        {
+          "name": "牛奶猫尊享版",
+          "price": 80,
+          "cycle": "月",
+          "gb": 430,
+          "note": ""
+        },
+        {
+          "name": "黑猫重度用户版",
+          "price": 160,
+          "cycle": "月",
+          "gb": 850,
+          "note": ""
+        },
+        {
+          "name": "年付更省",
+          "price": 96,
+          "cycle": "年",
+          "gb": 60,
+          "note": ""
         }
       ]
     }

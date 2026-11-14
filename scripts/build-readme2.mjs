@@ -25,7 +25,8 @@ if (existsSync(AFF)) {
 let verified = {}
 if (existsSync(PRICES)) {
   try {
-    verified = JSON.parse(readFileSync(PRICES, 'utf8')).verified || {}
+    const pj = JSON.parse(readFileSync(PRICES, 'utf8'))
+    verified = { ...(pj.verified || {}), ...(pj.verified2 || {}) }
   } catch {}
 }
 
@@ -168,10 +169,10 @@ push(
     '这 7 家大多自带线路检测页，注册前可以先看一眼自己所在地区到各入口的延迟。',
   ''
 )
-push('### 为什么这份清单不写具体价格？')
+push('### 这份清单的价格准吗？')
 push(
-  '这个价位的机场套餐页都要登录才能看，第三方渠道抄来的价格往往已经过期。' +
-    '写错价格比不写价格更伤信誉，所以一律标「待核实」，你点进去看实价。',
+  '每个套餐都是登录各家后台「购买订阅」页截图抄下来的，标注了核实日期（2026-11-14）。' +
+    '不写第三方渠道抄来的数字——那类价格通常已经过期。机场改价不会通知任何人，下单前还是以官网当前页面为准。',
   ''
 )
 push('### 预算有限，但又想要稳一点，怎么选？')
