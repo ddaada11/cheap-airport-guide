@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T04:13:44.300Z",
+  "updated": "2026-11-18T03:10:56.744Z",
   "days": {
     "2026-11-14": {
       "一元机场": {
@@ -172,6 +172,50 @@
       "飞鸟云": {
         "ok": true,
         "ms": 95,
+        "code": 403,
+        "note": "",
+        "host": "feiniaoyun.xyz"
+      }
+    },
+    "2026-11-18": {
+      "一元机场": {
+        "ok": true,
+        "ms": 384,
+        "code": 403,
+        "note": "",
+        "host": "xn--4gq62f52gdss.top"
+      },
+      "翻墙侠": {
+        "ok": true,
+        "ms": 155,
+        "code": 403,
+        "note": "",
+        "host": "app.fanqiangxia.com"
+      },
+      "Hneko云": {
+        "ok": true,
+        "ms": 111,
+        "code": 403,
+        "note": "",
+        "host": "hhneko.xyz"
+      },
+      "便宜机场": {
+        "ok": true,
+        "ms": 363,
+        "code": 200,
+        "note": "",
+        "host": "xn--wtq35pfyd55o.co"
+      },
+      "NanoCloud": {
+        "ok": true,
+        "ms": 778,
+        "code": 200,
+        "note": "",
+        "host": "edu.uodoo.bid"
+      },
+      "飞鸟云": {
+        "ok": true,
+        "ms": 200,
         "code": 403,
         "note": "",
         "host": "feiniaoyun.xyz"
